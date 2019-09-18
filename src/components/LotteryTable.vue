@@ -40,7 +40,6 @@ export default class LotteryTable extends Vue {
     height: 166px;
     background-image: url('../assets/gui/chest.png');
     padding: 6px 14px;
-    box-sizing: border-box;
   }
 
   .lottery-table__title {
@@ -51,7 +50,6 @@ export default class LotteryTable extends Vue {
   }
 
   .lottery-table__blocks {
-    box-sizing: border-box;
     position: relative;
     width: calc(100% + 4px);
     height: 108px;

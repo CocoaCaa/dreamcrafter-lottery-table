@@ -18,6 +18,10 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
+* {
+  box-sizing: border-box;
+}
+
 #app {
   font-family: Arial, Helvetica, sans-serif;
 }
