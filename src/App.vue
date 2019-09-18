@@ -1,19 +1,17 @@
 <template>
   <div id="app">
-    <h1>DreamCrafter Lottery Table</h1>
-    <BlockItem
-      src="images/block/yellow_glazed_terracotta.png"
-    />
+    <!-- <h1>DreamCrafter Lottery Table</h1> -->
+    <LotteryTable />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import BlockItem from './components/BlockItem.vue';
+import LotteryTable from './components/LotteryTable.vue';
 
 @Component({
   components: {
-    BlockItem,
+    LotteryTable,
   },
 })
 export default class App extends Vue {}
