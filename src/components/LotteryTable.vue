@@ -35,12 +35,19 @@
             :key="idx"
           >
             <div
-              v-for="(item, itemIdx) in keyExchange"
+              v-for="(exchangeItem, itemIdx) in keyExchange"
               :key="`item-${itemIdx}`"
               class="exchange-table__item"
             >
+              <div
+                v-if="exchangeItem.money"
+                class="exchange-table__money"
+              >
+                {{exchangeItem.money}}€
+              </div>
               <Item
-                :value="configItems[item.id]"
+                v-else-if="exchangeItem.id"
+                :value="configItems[exchangeItem.id]"
               />
               <span class="exchange-table__plus">+</span>
             </div>
@@ -137,6 +144,10 @@ export default class LotteryTable extends Vue {
         display: none;
       }
     }
+  }
+
+  .exchange-table__money {
+    font-size: 30px;
   }
 
   .exchange-table__plus {

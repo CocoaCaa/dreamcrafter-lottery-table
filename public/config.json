@@ -1,16 +1,158 @@
 {
   "items": {
-    "0": {
+    "吃燈籠玩月餅稱號書": {
       "type": "item",
       "imageId": "book",
-      "name": "&a&lBook",
-      "lore": ""
+      "name": "&7<<&a吃&d燈籠&a玩&6月餅&c(/>ω</)&7>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019年中秋抽抽樂",
+      "enchanted": false
+    },
+    "中秋你註定一人稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&e中秋&b你註定&7一人&fΩДΩ>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019年中秋抽抽樂",
+      "enchanted": false
+    },
+    "活動明月之劍": {
+      "type": "item",
+      "imageId": "golden_sword",
+      "name": "&6【&d活動&6】&e明月之劍&f⟡",
+      "lore": "&7修補\\n&7鋒利 III\\n&7不死剋星 II\\n&7耐久 X\\n&b戍鼓斷人行\\n&b邊秋一雁聲\\n&7露從今夜白\\n&7月是故鄉明\\n\\n&7在慣用手時:\\n &21.6 攻撃速度\\n &26 攻擊傷害",
+      "enchanted": true
+    },
+    "活動月下玉兔": {
+      "type": "item",
+      "imageId": "spawn_egg_rabbit",
+      "name": "&6【&b活動&6】&e月下玉兔",
+      "lore": "&7耐久 X\\n&b聽說由月亮掉下來的蛋\\n&7不知道會出什麼東西…",
+      "enchanted": true
+    },
+    "鑰匙中秋節寶箱": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&6【&b鑰匙&6】&e中秋節寶箱",
+      "lore": "&7可以用作開啟&e中秋節寶箱",
+      "enchanted": true
+    },
+    "活動羅伯蘿蔔": {
+      "type": "item",
+      "imageId": "carrot",
+      "name": "&6【&b活動&6】&e羅伯蘿蔔",
+      "lore": "&7耐久 X\\n&b誰是羅伯啦\\n&e可以自己吃，可以给朋友吃也可以給兔兔吃(*．∀-)☆",
+      "enchanted": true
+    },
+    "diamond": {
+      "type": "item",
+      "imageId": "diamond",
+      "name": "鑽石",
+      "lore": "",
+      "enchanted": false
+    },
+    "iron_ingot": {
+      "type": "item",
+      "imageId": "iron_ingot",
+      "name": "鐵錠",
+      "lore": "",
+      "enchanted": false
+    },
+    "gold_ingot": {
+      "type": "item",
+      "imageId": "gold_ingot",
+      "name": "金錠",
+      "lore": "",
+      "enchanted": false
+    },
+    "活動月餅": {
+      "type": "item",
+      "imageId": "cookie",
+      "name": "&6【&b活動&6】&e月餅",
+      "lore": "&a除了用來吃以外,\\n&a我想不到其他用處\\n&7備註: 請勿浪費食物",
+      "enchanted": true
+    },
+    "活動月之碎片": {
+      "type": "item",
+      "imageId": "dandelion_yellow",
+      "name": "&6【&d活動&6】&e月之碎片",
+      "lore": "&7耐久 X\\n&2聽說是由月亮上掉下來的\\n&b收集後可以換領一些東西",
+      "enchanted": true
+    },
+    "sponge": {
+      "type": "block",
+      "imageId": "sponge",
+      "name": "海綿",
+      "lore": "",
+      "enchanted": false
+    },
+    "golden_apple": {
+      "type": "item",
+      "imageId": "golden_apple",
+      "name": "&b金蘋果",
+      "lore": "",
+      "enchanted": false
+    },
+    "yellow_glazed_terracotta": {
+      "type": "block",
+      "imageId": "yellow_glazed_terracotta",
+      "name": "黄色釉陶",
+      "lore": "",
+      "enchanted": false
+    },
+    "emerald": {
+      "type": "item",
+      "imageId": "emerald",
+      "name": "綠寶石",
+      "lore": "",
+      "enchanted": false
+    },
+    "horn_coral_fan": {
+      "type": "item",
+      "imageId": "horn_coral_fan",
+      "name": "扇狀角珊瑚",
+      "lore": "",
+      "enchanted": false
+    },
+    "horn_coral": {
+      "type": "item",
+      "imageId": "horn_coral",
+      "name": "角珊瑚",
+      "lore": "",
+      "enchanted": false
+    },
+    "2019中秋抽抽樂鎖匙": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&62019 中秋抽抽樂 &a鎖匙",
+      "lore": "",
+      "enchanted": false
     }
   },
   "lotteries": {
     "0": {
-      "title": "Chest",
-      "items": [{"id": "0", "qty": 1}]
+      "title": "&6◊ &e中秋節寶箱 &6◊",
+      "items": [
+        {"id": "吃燈籠玩月餅稱號書", "qty": 1},
+        {"id": "中秋你註定一人稱號書", "qty": 1},
+        {"id": "活動明月之劍", "qty": 1},
+        {"id": "活動月下玉兔", "qty": 1},
+        {"id": "鑰匙中秋節寶箱", "qty": 1},
+        {"id": "活動羅伯蘿蔔", "qty": 1},
+        {"id": "diamond", "qty": 5},
+        {"id": "iron_ingot", "qty": 5},
+        {"id": "gold_ingot", "qty": 5},
+        {"id": "活動月餅", "qty": 4},
+        {"id": "活動月之碎片", "qty": 5},
+        {"id": "sponge", "qty": 1},
+        {"id": "golden_apple", "qty": 2},
+        {"id": "yellow_glazed_terracotta", "qty": 32},
+        {"id": "emerald", "qty": 2},
+        {"id": "horn_coral_fan", "qty": 2},
+        {"id": "horn_coral", "qty": 2}
+      ],
+      "key": "2019中秋抽抽樂鎖匙",
+      "keyExchanges": [
+        [{"money": 950.00}]
+      ]
     }
   }
 }
