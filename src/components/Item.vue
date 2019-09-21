@@ -9,9 +9,11 @@
       <img class="block__face block__face--top" :src="imageSrc">
     </div>
     <div
+      v-if="value.enchanted"
       class="item__enchant"
       :style="{ 'mask-image': `url(${value.type === 'item' ? imageSrc : '/images/block-mask.png'})` }"
     />
+    <div v-if="qty > 1" class="item__qty">{{qty}}</div>
     <div
       class="item__cover"
       @mouseenter="handleMouseEnter"
@@ -21,6 +23,7 @@
       v-if="isHovering"
     >
       <MinecraftText :value="value.name" />
+      <MinecraftText style="margin-top: 10px;" :value="value.lore" />
     </Tooltip>
   </div>
 </template>
@@ -39,6 +42,9 @@ import MinecraftText from './MinecraftText.vue';
 export default class Item extends Vue {
   @Prop({ required: true })
   public value!: ConfigItem;
+
+  @Prop({ default: 1 })
+  public qty!: number;
 
   public get imageSrc() {
     return `/images/${this.value.type}/${this.value.imageId}.png`;
@@ -84,6 +90,18 @@ export default class Item extends Vue {
     right: 0;
     bottom: 0;
     user-select: none;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  .item__qty {
+    position: absolute;
+    right: -1px;
+    bottom: -2px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
   }
 
   .item__block{

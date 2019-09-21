@@ -11,6 +11,7 @@
           v-for="(lotteryItem, idx) in value.items"
           :key="idx"
           :value="configItems[lotteryItem.id]"
+          :qty="lotteryItem.qty"
           class="lottery-table__block"
         />
       </div>
@@ -18,7 +19,7 @@
     <div
       class="lottery-table__exchange-table"
     >
-      <div>鑰匙</div>
+      <div class="exchange-table__title">鑰匙</div>
       <div class="exchange-table__container">
         <div class="exchange-table__key">
           <Item
@@ -104,7 +105,11 @@ export default class LotteryTable extends Vue {
   }
 
   .lottery-table__exchange-table {
-    margin: 10px 0;
+    margin: 15px 0;
+  }
+
+  .exchange-table__title {
+    margin-bottom: 10px;
   }
 
   .exchange-table__key {

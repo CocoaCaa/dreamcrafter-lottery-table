@@ -43,4 +43,8 @@ export default class App extends Vue {
 body {
   font-family: unifont, Arial, sans-serif;
 }
+
+#app {
+  padding: 20px;
+}
 </style>
