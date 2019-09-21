@@ -15,19 +15,21 @@
     />
     <Tooltip
       v-if="isHovering"
-      v-html="name"
-    />
+    >
+      <MinecraftText :value="value.name" />
+    </Tooltip>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator';
 import Tooltip from './Tooltip.vue';
-import MinecraftText from 'minecraft-text-js';
+import MinecraftText from './MinecraftText.vue';
 
 @Component({
   components: {
     Tooltip,
+    MinecraftText,
   },
 })
 export default class Item extends Vue {
@@ -36,10 +38,6 @@ export default class Item extends Vue {
 
   public get imageSrc() {
     return `/images/${this.value.type}/${this.value.imageId}.png`;
-  }
-
-  public get name() {
-    return MinecraftText.toHTML(this.value.name);
   }
 
   public isHovering = false;

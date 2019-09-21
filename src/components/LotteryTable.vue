@@ -3,7 +3,9 @@
     <div
       class="lottery-table__container"
     >
-      <h2 class="lottery-table__title">{{value.title}}</h2>
+      <h2 class="lottery-table__title">
+        <MinecraftText :value="value.title" />
+      </h2>
       <div class="lottery-table__blocks">
         <Item
           v-for="(lotteryItem, idx) in value.items"
@@ -19,10 +21,12 @@
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator';
 import Item from './Item.vue';
+import MinecraftText from './MinecraftText.vue';
 
 @Component({
   components: {
     Item,
+    MinecraftText,
   }
 })
 export default class LotteryTable extends Vue {
