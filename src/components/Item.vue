@@ -23,7 +23,7 @@
       v-if="isHovering"
     >
       <MinecraftText :value="value.name" />
-      <MinecraftText style="margin-top: 10px;" :value="value.lore" />
+      <MinecraftText v-if="value.lore" style="margin-top: 10px;" :value="value.lore" />
     </Tooltip>
   </div>
 </template>
@@ -77,7 +77,7 @@ export default class Item extends Vue {
     bottom: 0;
     background-image: url(../assets/enchanted_item_glint.png);
     background-size: 300%;
-    background-color: #ef00ff;
+    background-color: #dd20ff;
     background-blend-mode: darken;
     mix-blend-mode: lighten;
     animation: enchant-effect 5s linear infinite;
@@ -117,10 +117,12 @@ export default class Item extends Vue {
 
   .block__face--left {
     transform: translate(2px, 23px) rotateZ(180deg) scale(0.9, 1.1) skewY(22deg);
+    filter: brightness(0.7);
   }
 
   .block__face--right {
     transform: translate(30px, 23px) rotateZ(64deg) scale(1, 1) skewY(26deg);
+    filter: brightness(0.5);
   }
 
   .block__face--top {
