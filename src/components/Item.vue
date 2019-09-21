@@ -126,7 +126,7 @@ export default class Item extends Vue {
   }
 
   .block__face--top {
-    transform: translate(16px, -1.5px) scale(0.94) rotateZ(45deg) skew(-18deg, -18deg);
+    transform: translate(16px, -1.5px) scale(0.94) rotateZ(135deg) skew(18deg, 18deg);
   }
 }
 
