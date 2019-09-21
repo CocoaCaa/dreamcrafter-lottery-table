@@ -48,7 +48,6 @@ export default class Tooltip extends Vue {
   background-color: rgba(0, 0, 0, 0.9);
   pointer-events: none;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   line-height: 1;
 }
 </style>

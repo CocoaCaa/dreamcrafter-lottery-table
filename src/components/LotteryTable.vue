@@ -3,16 +3,14 @@
     <div
       class="lottery-table__container"
     >
-      <h2 class="lottery-table__title">Chest</h2>
+      <h2 class="lottery-table__title">{{value.title}}</h2>
       <div class="lottery-table__blocks">
-        <div>
-          <BlockItem
-            v-for="i in new Array(9).fill(null)"
-            :key="i"
-            src="images/block/yellow_glazed_terracotta.png"
-            class="lottery-table__block"
-          />
-        </div>
+        <Item
+          v-for="(lotteryItem, idx) in value.items"
+          :key="idx"
+          :value="configItems[lotteryItem.id]"
+          class="lottery-table__block"
+        />
       </div>
     </div>
   </div>
@@ -20,16 +18,19 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator';
-import BlockItem from './BlockItem.vue';
+import Item from './Item.vue';
 
 @Component({
   components: {
-    BlockItem,
+    Item,
   }
 })
 export default class LotteryTable extends Vue {
-  @Prop()
-  public src!: string;
+  @Prop({ required: true })
+  public value!: ConfigLottery;
+
+  @Prop({ required: true })
+  public configItems!: ConfigItems;
 }
 </script>
 
@@ -47,6 +48,7 @@ export default class LotteryTable extends Vue {
     margin-bottom: 5px;
     font-weight: normal;
     font-size: 16px;
+    height: 18px;
   }
 
   .lottery-table__blocks {
