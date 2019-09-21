@@ -9,6 +9,10 @@
       <img class="block__face block__face--top" :src="imageSrc">
     </div>
     <div
+      class="item__enchant"
+      :style="{ 'mask-image': `url(${imageSrc})` }"
+    />
+    <div
       class="item__cover"
       @mouseenter="handleMouseEnter"
       @mouseleave="handleMouseLeave"
@@ -58,6 +62,20 @@ export default class Item extends Vue {
   width: 32px;
   height: 32px;
 
+  .item__enchant {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../assets/enchanted_item_glint.png);
+    background-size: 300%;
+    background-color: #ef00ff;
+    background-blend-mode: darken;
+    mix-blend-mode: lighten;
+    animation: enchant-effect 5s linear infinite;
+  }
+
   .item__cover {
     position: absolute;
     left: 0;
@@ -88,6 +106,16 @@ export default class Item extends Vue {
 
   .block__face--top {
     transform: translate(16px, -1.5px) scale(0.94) rotateZ(45deg) skew(-18deg, -18deg);
+  }
+}
+
+@keyframes enchant-effect {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 200% 0%;
   }
 }
 </style>
