@@ -15,6 +15,38 @@
         />
       </div>
     </div>
+    <div
+      class="lottery-table__exchange-table"
+    >
+      <div>鑰匙</div>
+      <div class="exchange-table__container">
+        <div class="exchange-table__key">
+          <Item
+            :value="configItems[value.key]"
+          />
+          <span class="exchange-table__plus">=</span>
+        </div>
+        <ul
+          class="exchange-table__list"
+        >
+          <li
+            v-for="(keyExchange, idx) in value.keyExchanges"
+            :key="idx"
+          >
+            <div
+              v-for="(item, itemIdx) in keyExchange"
+              :key="`item-${itemIdx}`"
+              class="exchange-table__item"
+            >
+              <Item
+                :value="configItems[item.id]"
+              />
+              <span class="exchange-table__plus">+</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -69,6 +101,42 @@ export default class LotteryTable extends Vue {
     min-height: 32px;
     float: left;
     clear: none;
+  }
+
+  .lottery-table__exchange-table {
+    margin: 10px 0;
+  }
+
+  .exchange-table__key {
+    display: flex;
+    align-items: center;
+  }
+
+  .exchange-table__container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .exchange-table__list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .exchange-table__item {
+    display: inline-flex;
+    align-items: center;
+
+    &:last-child {
+      .exchange-table__plus {
+        display: none;
+      }
+    }
+  }
+
+  .exchange-table__plus {
+    font-size: 30px;
+    margin: 0 10px;
   }
 }
 </style>

@@ -10,7 +10,7 @@
     </div>
     <div
       class="item__enchant"
-      :style="{ 'mask-image': `url(${imageSrc})` }"
+      :style="{ 'mask-image': `url(${value.type === 'item' ? imageSrc : '/images/block-mask.png'})` }"
     />
     <div
       class="item__cover"
@@ -58,6 +58,7 @@ export default class Item extends Vue {
 
 <style lang="scss">
 .item {
+  display: inline-block;
   position: relative;
   width: 32px;
   height: 32px;
