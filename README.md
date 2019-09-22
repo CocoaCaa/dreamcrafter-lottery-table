@@ -22,6 +22,8 @@ https://minixz.github.io/dreamcrafter-lottery-table/
 
 詳細請看 [CONTRIBUTING.md](/CONTRIBUTING.md) (English)
 
+- - -
+
 [Minecraft](https://www.minecraft.net) is copyright Mojang AB / Microsoft and is not affiliated with this site.
 
 抽抽樂 is owned by © DREAMCRAFTER https://www.letsdream.today
