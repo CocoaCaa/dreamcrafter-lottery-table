@@ -3,6 +3,7 @@ interface ConfigItem {
   imageId: string;
   name: string;
   lore: string;
+  enchanted: boolean;
 }
 
 type ConfigItems = Record<string, ConfigItem>;
@@ -12,9 +13,15 @@ interface ConfigLotteryItem {
   qty: number;
 }
 
+interface ConfigLotteryKeyExchange extends ConfigLotteryItem {
+  money?: number;
+}
+
 interface ConfigLottery {
   title: string;
   items: (ConfigLotteryItem | null)[];
+  key: string;
+  keyExchanges: ConfigLotteryKeyExchange[][];
 }
 
 interface Config {
