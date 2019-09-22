@@ -125,10 +125,94 @@
       "name": "&62019 中秋抽抽樂 &a鎖匙",
       "lore": "",
       "enchanted": true
+    },
+    "希亞希亞燦爛原石": {
+      "type": "item",
+      "imageId": "diamond",
+      "name": "&8[&7希亞&8]&c☫&b希亞&9燦爛原石",
+      "lore": "&d稀有度:&e[傳說]&9✭✭✭✭\\n&6極致稀有的礦石.\\n&6發出燦爛七彩光芒之石.\\n&6似乎是擁有力量魔力.&6\\n拿在手上感覺力量湧上來了..",
+      "enchanted": true
+    },
+    "歐洲七葉樹稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&9☫&b歐洲&a七葉&2樹>> &e稱號書",
+      "lore": "&6應該是沒有人比我歐洲了..\\n&a獲得方法 &7‒ &6希亞轉蛋機 內容物 以0.01%機率取得",
+      "enchanted": false
+    },
+    "diamond_sword": {
+      "type": "item",
+      "imageId": "diamond_sword",
+      "name": "鑽石劍",
+      "lore": "",
+      "enchanted": false
+    },
+    "rabbit_foot": {
+      "type": "item",
+      "imageId": "rabbit_foot",
+      "name": "兔子腳",
+      "lore": "",
+      "enchanted": false
+    },
+    "experience_bottle": {
+      "type": "item",
+      "imageId": "experience_bottle",
+      "name": "&e經驗瓶",
+      "lore": "",
+      "enchanted": false
+    },
+    "totem_of_undying": {
+      "type": "item",
+      "imageId": "totem_of_undying",
+      "name": "&e不死圖騰",
+      "lore": "",
+      "enchanted": false
+    },
+    "fermented_spider_eye": {
+      "type": "item",
+      "imageId": "fermented_spider_eye",
+      "name": "發酵蜘蛛眼",
+      "lore": "",
+      "enchanted": false
+    },
+    "emerald_block": {
+      "type": "block",
+      "imageId": "emerald_block",
+      "name": "綠寶石磚",
+      "lore": "",
+      "enchanted": false
+    },
+    "希亞希亞金石碎片": {
+      "type": "item",
+      "imageId": "gold_nugget",
+      "name": "&8[&7希亞&8]&c☫&b希亞&e金石&b碎片",
+      "lore": "&d稀有度:&e[傳說]&9✭✭\\n&6希亞神秘的貨幣之一\\n&6但只是碎裂的碎片..\\n&6收集一定數量可交換\\n&6完整的金石",
+      "enchanted": true
+    },
+    "希亞希亞完整金石": {
+      "type": "item",
+      "imageId": "gold_ingot",
+      "name": "&8[&7希亞&8]&c☫&b希亞&e完整金石",
+      "lore": "&d稀有度:&e[傳說]&9✭✭✭\\n&6完整的希亞金石",
+      "enchanted": true
+    },
+    "希亞希亞魔力碎片": {
+      "type": "item",
+      "imageId": "iron_nugget",
+      "name": "&8[&7希亞&8]&c☫&6希亞魔力碎片",
+      "lore": "&d稀有度:&e[傳說]&9✭✭\\n&6擁有魔力的石頭碎片.\\n&6非常的稀有\\n&6似乎有人非常需要~",
+      "enchanted": true
+    },
+    "希亞希亞完整魔石": {
+      "type": "item",
+      "imageId": "iron_ingot",
+      "name": "&8[&7希亞&8]&c☫&b希亞&9完整魔石",
+      "lore": "&d稀有度:&e[傳說]&9✭✭✭\\n&6完整的魔力之石.",
+      "enchanted": true
     }
   },
   "lotteries": {
-    "0": {
+    "中秋節寶箱": {
       "title": "&6◊ &e中秋節寶箱 &6◊",
       "items": [
         {"id": "吃燈籠玩月餅稱號書", "qty": 1},
@@ -152,6 +236,40 @@
       "key": "2019中秋抽抽樂鎖匙",
       "keyExchanges": [
         [{"money": 950.00}]
+      ]
+    },
+    "希亞寶物箱": {
+      "title": "&b☫ &6希亞寶物箱 &b☫",
+      "items": [
+        {"id": "希亞希亞燦爛原石", "qty": 1},
+        {"id": "歐洲七葉樹稱號書", "qty": 1},
+        {"id": "diamond", "qty": 10},
+        {"id": "diamond", "qty": 20},
+        {"id": "iron_ingot", "qty": 15},
+        {"id": "gold_ingot", "qty": 15},
+        {"id": "diamond_sword", "qty": 1},
+        {"id": "rabbit_foot", "qty": 5},
+        {"id": "experience_bottle", "qty": 10},
+        {"id": "totem_of_undying", "qty": 1},
+        {"id": "emerald", "qty": 10},
+        {"id": "fermented_spider_eye", "qty": 10},
+        {"id": "emerald_block", "qty": 1},
+        {"id": "希亞希亞金石碎片", "qty": 1},
+        {"id": "希亞希亞金石碎片", "qty": 3},
+        {"id": "希亞希亞金石碎片", "qty": 5},
+        {"id": "希亞希亞完整金石", "qty": 1},
+        {"id": "希亞希亞完整金石", "qty": 3},
+        {"id": "希亞希亞完整金石", "qty": 5},
+        {"id": "希亞希亞魔力碎片", "qty": 1},
+        {"id": "希亞希亞魔力碎片", "qty": 3},
+        {"id": "希亞希亞魔力碎片", "qty": 5},
+        {"id": "希亞希亞完整魔石", "qty": 1},
+        {"id": "希亞希亞完整魔石", "qty": 3},
+        {"id": "希亞希亞完整魔石", "qty": 5}
+      ],
+      "key": "2019中秋抽抽樂鎖匙",
+      "keyExchanges": [
+        [{"money": 6000.00}]
       ]
     }
   }
