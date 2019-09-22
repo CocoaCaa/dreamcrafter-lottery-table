@@ -17,11 +17,16 @@ interface ConfigLotteryKeyExchange extends ConfigLotteryItem {
   money?: number;
 }
 
+interface ConfigLotteryKey {
+  itemId: string;
+  qty: number;
+  exchanges: ConfigLotteryKeyExchange[][];
+}
+
 interface ConfigLottery {
   title: string;
   items: (ConfigLotteryItem | null)[];
-  key: string;
-  keyExchanges: ConfigLotteryKeyExchange[][];
+  keys: ConfigLotteryKey;
 }
 
 interface Config {

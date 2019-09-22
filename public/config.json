@@ -209,6 +209,27 @@
       "name": "&8[&7希亞&8]&c☫&b希亞&9完整魔石",
       "lore": "&d稀有度:&e[傳說]&9✭✭✭\\n&6完整的魔力之石.",
       "enchanted": true
+    },
+    "鑰匙希亞金鑰": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&7[&6鑰匙&7]&b希亞&e金鑰",
+      "lore": "&7可以用作開啟&b☫&6希亞寶物箱&b☫",
+      "enchanted": true
+    },
+    "異世之鑽": {
+      "type": "item",
+      "imageId": "diamond",
+      "name": "&6☫&b異世之鑽&6☫",
+      "lore": "&7耐久 X\\n&d稀有度:&e✯✯✯✯✯\\n &6異世界中的\\n &6璀璨稱奪目的寶石\\n &6可用於製作防具\\n &6也聽說似乎有\\n &6商人喜歡這顆寶石呢..",
+      "enchanted": true
+    },
+    "希亞幣": {
+      "type": "item",
+      "imageId": "diamond",
+      "name": "&b希亞幣",
+      "lore": "&7耐久 X\\n&b造型與鑽石很像,\\n&b閃閃發光，使用一些融合\\n&b魔法金屬製煉而成.\\n&b為希利斯特蘭亞\\n&b交易貨幣之一\\n&f(&c試煉活動兌換道具&f)",
+      "enchanted": true
     }
   },
   "lotteries": {
@@ -233,9 +254,14 @@
         {"id": "horn_coral_fan", "qty": 2},
         {"id": "horn_coral", "qty": 2}
       ],
-      "key": "2019中秋抽抽樂鎖匙",
-      "keyExchanges": [
-        [{"money": 950.00}]
+      "keys": [
+        {
+          "itemId": "2019中秋抽抽樂鎖匙",
+          "qty": 1,
+          "exchanges": [
+            [{"money": 950.00}]
+          ]
+        }
       ]
     },
     "希亞寶物箱": {
@@ -267,9 +293,35 @@
         {"id": "希亞希亞完整魔石", "qty": 3},
         {"id": "希亞希亞完整魔石", "qty": 5}
       ],
-      "key": "2019中秋抽抽樂鎖匙",
-      "keyExchanges": [
-        [{"money": 6000.00}]
+      "keys": [
+        {
+          "itemId": "鑰匙希亞金鑰",
+          "qty": 1,
+          "exchanges": [
+            [{"money": 6000.00}]
+          ]
+        },
+        {
+          "itemId": "鑰匙希亞金鑰",
+          "qty": 10,
+          "exchanges": [
+            [{"money": 48000.00}]
+          ]
+        },
+        {
+          "itemId": "鑰匙希亞金鑰",
+          "qty": 1,
+          "exchanges": [
+            [{"id": "異世之鑽", "qty": 1}]
+          ]
+        },
+        {
+          "itemId": "鑰匙希亞金鑰",
+          "qty": 1,
+          "exchanges": [
+            [{"id": "希亞幣", "qty": 32}]
+          ]
+        }
       ]
     }
   }

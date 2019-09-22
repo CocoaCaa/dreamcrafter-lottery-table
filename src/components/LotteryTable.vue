@@ -20,10 +20,15 @@
       class="lottery-table__exchange-table"
     >
       <div class="exchange-table__title">鑰匙</div>
-      <div class="exchange-table__container">
+      <div
+        v-for="(keyConfig, idx) in value.keys"
+        :key="idx"
+        class="exchange-table__container"
+      >
         <div class="exchange-table__key">
           <Item
-            :value="configItems[value.key]"
+            :value="configItems[keyConfig.itemId]"
+            :qty="keyConfig.qty"
           />
           <span class="exchange-table__plus">=</span>
         </div>
@@ -31,8 +36,8 @@
           class="exchange-table__list"
         >
           <li
-            v-for="(keyExchange, idx) in value.keyExchanges"
-            :key="idx"
+            v-for="(keyExchange, idx) in keyConfig.exchanges"
+            :key="`exchange-${idx}`"
           >
             <div
               v-for="(exchangeItem, itemIdx) in keyExchange"
