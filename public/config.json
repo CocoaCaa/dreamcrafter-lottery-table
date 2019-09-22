@@ -230,6 +230,132 @@
       "name": "&b希亞幣",
       "lore": "&7耐久 X\\n&b造型與鑽石很像,\\n&b閃閃發光，使用一些融合\\n&b魔法金屬製煉而成.\\n&b為希利斯特蘭亞\\n&b交易貨幣之一\\n&f(&c試煉活動兌換道具&f)",
       "enchanted": true
+    },
+    "活動名劍莫邪": {
+      "type": "item",
+      "imageId": "iron_sword",
+      "name": "&6【&d活動&6】&e名劍&c❖&4莫邪",
+      "lore": "&7絲綢之觸\\n&7耐久 III\\n&e一陰一陽之謂道\\n&f陰日莫邪\\n&c極端之物\\n&8陰陽失調 一無所成 徒勞無益\\n\\n&7在非慣用手時:\\n&9+4 攻擊速度\\n&c-8 攻撃傷害\\n&9無法破壞的",
+      "enchanted": true
+    },
+    "活動名劍干將": {
+      "type": "item",
+      "imageId": "diamond_sword",
+      "name": "&6【&d活動&6】&e名劍&c❖&b干將",
+      "lore": "&7掠奪 III\\n&7絲綢之觸\\n&7不死剋星 III\\n&7橫掃之刃 I\\n&7耐久 III\\n&e一陰一陽之謂道\\n&b陽日干將\\n&c極端之物\\n&8陰陽失調 一無所成 徒勞無益\\n\\n&7在非慣用手時:\\n&9-4 攻擊速度\\n&c+24 攻撃傷害\\n&9無法破壞的",
+      "enchanted": true
+    },
+    "築歲平安稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&a築&b歲&6平安&e✧&d◝(⁰▿⁰)◜&e✧&7>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019新年活動",
+      "enchanted": false
+    },
+    "吉祥如豬稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&e吉祥&d如豬 &c(〃´∀｀〃)ε｀●)&7>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019新年活動",
+      "enchanted": false
+    },
+    "活動願者上釣": {
+      "type": "item",
+      "imageId": "fishing_rod",
+      "name": "&6【&d活動&6】&a願者上釣&e(๑╹◡╹๑)",
+      "lore": "&7海洋的祝福 II\\n&7魚餌 II\\n&7修補\\n&7耐久 X\\n&e姜太公釣魚可以願者上釣，\\n&e你可以嗎？",
+      "enchanted": true
+    },
+    "enchanted_book_looting": {
+      "type": "item",
+      "imageId": "enchanted_book",
+      "name": "&e附魔書",
+      "lore": "&7掠奪 III",
+      "enchanted": true
+    },
+    "草原上的新春草泥馬": {
+      "type": "item",
+      "imageId": "spawn_egg_llama",
+      "name": "&6【&a草原上的&6】&c新春&b草泥馬",
+      "lore": "",
+      "enchanted": false
+    },
+    "magma_block": {
+      "type": "block",
+      "imageId": "magma",
+      "name": "岩漿塊",
+      "lore": "",
+      "enchanted": false
+    },
+    "spawn_egg_pig": {
+      "type": "item",
+      "imageId": "spawn_egg_pig",
+      "name": "豬 生怪蛋",
+      "lore": "",
+      "enchanted": false
+    },
+    "鑰匙新年寶箱": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&6【&b鑰匙&6】&c新年寶箱",
+      "lore": "&7可以用作開啟&c新年寶箱",
+      "enchanted": true
+    },
+    "gold_block": {
+      "type": "block",
+      "imageId": "gold_block",
+      "name": "金磚",
+      "lore": "",
+      "enchanted": false
+    },
+    "iron_block": {
+      "type": "block",
+      "imageId": "iron_block",
+      "name": "鐵磚",
+      "lore": "",
+      "enchanted": false
+    },
+    "red_glazed_terracotta": {
+      "type": "block",
+      "imageId": "red_glazed_terracotta",
+      "name": "紅色釉陶",
+      "lore": "",
+      "enchanted": false
+    },
+    "bricks": {
+      "type": "block",
+      "imageId": "bricks",
+      "name": "紅磚",
+      "lore": "",
+      "enchanted": false
+    },
+    "cooked_porkchop": {
+      "type": "item",
+      "imageId": "cooked_porkchop",
+      "name": "烤豬肉",
+      "lore": "",
+      "enchanted": false
+    },
+    "rose_red": {
+      "type": "item",
+      "imageId": "rose_red",
+      "name": "玫瑰紅",
+      "lore": "",
+      "enchanted": false
+    },
+    "dried_kelp": {
+      "type": "item",
+      "imageId": "dried_kelp",
+      "name": "海帶乾",
+      "lore": "",
+      "enchanted": false
+    },
+    "2019新年抽抽樂鎖匙": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&c2019 &6新年抽抽樂 &a鎖匙",
+      "lore": "",
+      "enchanted": true
     }
   },
   "lotteries": {
@@ -260,6 +386,13 @@
           "qty": 1,
           "exchanges": [
             [{"money": 950.00}]
+          ]
+        },
+        {
+          "itemId": "2019中秋抽抽樂鎖匙",
+          "qty": 32,
+          "exchanges": [
+            [{"money": 30400.00}]
           ]
         }
       ]
@@ -320,6 +453,46 @@
           "qty": 1,
           "exchanges": [
             [{"id": "希亞幣", "qty": 32}]
+          ]
+        }
+      ]
+    },
+    "新年寶箱": {
+      "title": "&6◊ &c新年寶箱 &6◊",
+      "items": [
+        {"id": "活動名劍莫邪", "qty": 1},
+        {"id": "活動名劍干將", "qty": 1},
+        {"id": "築歲平安稱號書", "qty": 1},
+        {"id": "吉祥如豬稱號書", "qty": 1},
+        {"id": "活動願者上釣", "qty": 1},
+        {"id": "enchanted_book_looting", "qty": 1},
+        {"id": "diamond", "qty": 8},
+        {"id": "diamond", "qty": 6},
+        {"id": "草原上的新春草泥馬", "qty": 1},
+        {"id": "magma_block", "qty": 48},
+        {"id": "spawn_egg_pig", "qty": 3},
+        {"id": "鑰匙新年寶箱", "qty": 1},
+        {"id": "gold_block", "qty": 3},
+        {"id": "iron_block", "qty": 6},
+        {"id": "red_glazed_terracotta", "qty": 48},
+        {"id": "bricks", "qty": 32},
+        {"id": "cooked_porkchop", "qty": 32},
+        {"id": "rose_red", "qty": 64},
+        {"id": "dried_kelp", "qty": 32}
+      ],
+      "keys": [
+        {
+          "itemId": "2019新年抽抽樂鎖匙",
+          "qty": 1,
+          "exchanges": [
+            [{"money": 888.00}]
+          ]
+        },
+        {
+          "itemId": "2019新年抽抽樂鎖匙",
+          "qty": 32,
+          "exchanges": [
+            [{"money": 28420.00}]
           ]
         }
       ]
