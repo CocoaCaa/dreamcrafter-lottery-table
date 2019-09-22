@@ -2,9 +2,17 @@
   <div id="app">
     <h1 class="app__title">
       <div
-        class="app__container"
+        class="app__container app__container--flex"
       >
-        DreamCrafter <span class="title__lottery">抽抽樂</span> 一覧
+        <div>DreamCrafter <span class="title__lottery">抽抽樂</span> 一覧</div>
+        <github-button
+          href="https://github.com/minixz/dreamcrafter-lottery-table"
+          data-show-count="true"
+          aria-label="Star minixz/dreamcrafter-lottery-table on GitHub"
+          class="app__github-star-button"
+        >
+          Star
+        </github-button>
       </div>
     </h1>
     <div
@@ -40,19 +48,21 @@
 
 <script lang="ts">
 import axios from 'axios';
+import GithubButton from 'vue-github-button';
 import { Component, Vue } from 'vue-property-decorator';
 import LotteryTable from './components/LotteryTable.vue';
 
 @Component({
   components: {
     LotteryTable,
+    GithubButton,
   },
 })
 export default class App extends Vue {
   public config: Config = { items: {}, lotteries: {} };
 
   public async mounted() {
-    const { data: config } = await axios.get<Config>('/config.json');
+    const { data: config } = await axios.get<Config>(`${process.env.BASE_URL}config.json`);
     this.config = config;
   }
 }
@@ -81,12 +91,20 @@ body {
   background-color: #000;
 }
 
+.app__github-star-button {
+  margin-left: auto;
+}
+
 .app__container {
   margin: 0 auto;
   max-width: 1200px;
   @media screen and (max-width: 1200px) {
     margin: 0 10px;
   }
+}
+
+.app__container--flex {
+  display: flex;
 }
 
 .title__lottery {

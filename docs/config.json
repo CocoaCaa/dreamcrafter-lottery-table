@@ -1,0 +1,511 @@
+{
+  "items": {
+    "吃燈籠玩月餅稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&a吃&d燈籠&a玩&6月餅&c(/>ω</)&7>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019年中秋抽抽樂",
+      "enchanted": false
+    },
+    "中秋你註定一人稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&e中秋&b你註定&7一人&fΩДΩ>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019年中秋抽抽樂",
+      "enchanted": false
+    },
+    "活動明月之劍": {
+      "type": "item",
+      "imageId": "golden_sword",
+      "name": "&6【&d活動&6】&e明月之劍&f⟡",
+      "lore": "&7修補\\n&7鋒利 III\\n&7不死剋星 II\\n&7耐久 X\\n&b戍鼓斷人行\\n&b邊秋一雁聲\\n&7露從今夜白\\n&7月是故鄉明\\n\\n&7在慣用手時:\\n &21.6 攻撃速度\\n &26 攻擊傷害",
+      "enchanted": true
+    },
+    "活動月下玉兔": {
+      "type": "item",
+      "imageId": "spawn_egg_rabbit",
+      "name": "&6【&b活動&6】&e月下玉兔",
+      "lore": "&7耐久 X\\n&b聽說由月亮掉下來的蛋\\n&7不知道會出什麼東西…",
+      "enchanted": true
+    },
+    "鑰匙中秋節寶箱": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&6【&b鑰匙&6】&e中秋節寶箱",
+      "lore": "&7可以用作開啟&e中秋節寶箱",
+      "enchanted": true
+    },
+    "活動羅伯蘿蔔": {
+      "type": "item",
+      "imageId": "carrot",
+      "name": "&6【&b活動&6】&e羅伯蘿蔔",
+      "lore": "&7耐久 X\\n&b誰是羅伯啦\\n&e可以自己吃，可以给朋友吃也可以給兔兔吃(*．∀-)☆",
+      "enchanted": true
+    },
+    "diamond": {
+      "type": "item",
+      "imageId": "diamond",
+      "name": "鑽石",
+      "lore": "",
+      "enchanted": false
+    },
+    "iron_ingot": {
+      "type": "item",
+      "imageId": "iron_ingot",
+      "name": "鐵錠",
+      "lore": "",
+      "enchanted": false
+    },
+    "gold_ingot": {
+      "type": "item",
+      "imageId": "gold_ingot",
+      "name": "金錠",
+      "lore": "",
+      "enchanted": false
+    },
+    "活動月餅": {
+      "type": "item",
+      "imageId": "cookie",
+      "name": "&6【&b活動&6】&e月餅",
+      "lore": "&a除了用來吃以外,\\n&a我想不到其他用處\\n&7備註: 請勿浪費食物",
+      "enchanted": true
+    },
+    "活動月之碎片": {
+      "type": "item",
+      "imageId": "dandelion_yellow",
+      "name": "&6【&d活動&6】&e月之碎片",
+      "lore": "&7耐久 X\\n&2聽說是由月亮上掉下來的\\n&b收集後可以換領一些東西",
+      "enchanted": true
+    },
+    "sponge": {
+      "type": "block",
+      "imageId": "sponge",
+      "name": "海綿",
+      "lore": "",
+      "enchanted": false
+    },
+    "golden_apple": {
+      "type": "item",
+      "imageId": "golden_apple",
+      "name": "&b金蘋果",
+      "lore": "",
+      "enchanted": false
+    },
+    "yellow_glazed_terracotta": {
+      "type": "block",
+      "imageId": "yellow_glazed_terracotta",
+      "name": "黄色釉陶",
+      "lore": "",
+      "enchanted": false
+    },
+    "emerald": {
+      "type": "item",
+      "imageId": "emerald",
+      "name": "綠寶石",
+      "lore": "",
+      "enchanted": false
+    },
+    "horn_coral_fan": {
+      "type": "item",
+      "imageId": "horn_coral_fan",
+      "name": "扇狀角珊瑚",
+      "lore": "",
+      "enchanted": false
+    },
+    "horn_coral": {
+      "type": "item",
+      "imageId": "horn_coral",
+      "name": "角珊瑚",
+      "lore": "",
+      "enchanted": false
+    },
+    "2019中秋抽抽樂鎖匙": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&62019 中秋抽抽樂 &a鎖匙",
+      "lore": "",
+      "enchanted": true
+    },
+    "希亞希亞燦爛原石": {
+      "type": "item",
+      "imageId": "diamond",
+      "name": "&8[&7希亞&8]&c☫&b希亞&9燦爛原石",
+      "lore": "&d稀有度:&e[傳說]&9✭✭✭✭\\n&6極致稀有的礦石.\\n&6發出燦爛七彩光芒之石.\\n&6似乎是擁有力量魔力.&6\\n拿在手上感覺力量湧上來了..",
+      "enchanted": true
+    },
+    "歐洲七葉樹稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&9☫&b歐洲&a七葉&2樹>> &e稱號書",
+      "lore": "&6應該是沒有人比我歐洲了..\\n&a獲得方法 &7‒ &6希亞轉蛋機 內容物 以0.01%機率取得",
+      "enchanted": false
+    },
+    "diamond_sword": {
+      "type": "item",
+      "imageId": "diamond_sword",
+      "name": "鑽石劍",
+      "lore": "",
+      "enchanted": false
+    },
+    "rabbit_foot": {
+      "type": "item",
+      "imageId": "rabbit_foot",
+      "name": "兔子腳",
+      "lore": "",
+      "enchanted": false
+    },
+    "experience_bottle": {
+      "type": "item",
+      "imageId": "experience_bottle",
+      "name": "&e經驗瓶",
+      "lore": "",
+      "enchanted": true
+    },
+    "totem_of_undying": {
+      "type": "item",
+      "imageId": "totem_of_undying",
+      "name": "&e不死圖騰",
+      "lore": "",
+      "enchanted": false
+    },
+    "fermented_spider_eye": {
+      "type": "item",
+      "imageId": "fermented_spider_eye",
+      "name": "發酵蜘蛛眼",
+      "lore": "",
+      "enchanted": false
+    },
+    "emerald_block": {
+      "type": "block",
+      "imageId": "emerald_block",
+      "name": "綠寶石磚",
+      "lore": "",
+      "enchanted": false
+    },
+    "希亞希亞金石碎片": {
+      "type": "item",
+      "imageId": "gold_nugget",
+      "name": "&8[&7希亞&8]&c☫&b希亞&e金石&b碎片",
+      "lore": "&d稀有度:&e[傳說]&9✭✭\\n&6希亞神秘的貨幣之一\\n&6但只是碎裂的碎片..\\n&6收集一定數量可交換\\n&6完整的金石",
+      "enchanted": true
+    },
+    "希亞希亞完整金石": {
+      "type": "item",
+      "imageId": "gold_ingot",
+      "name": "&8[&7希亞&8]&c☫&b希亞&e完整金石",
+      "lore": "&d稀有度:&e[傳說]&9✭✭✭\\n&6完整的希亞金石",
+      "enchanted": true
+    },
+    "希亞希亞魔力碎片": {
+      "type": "item",
+      "imageId": "iron_nugget",
+      "name": "&8[&7希亞&8]&c☫&6希亞魔力碎片",
+      "lore": "&d稀有度:&e[傳說]&9✭✭\\n&6擁有魔力的石頭碎片.\\n&6非常的稀有\\n&6似乎有人非常需要~",
+      "enchanted": true
+    },
+    "希亞希亞完整魔石": {
+      "type": "item",
+      "imageId": "iron_ingot",
+      "name": "&8[&7希亞&8]&c☫&b希亞&9完整魔石",
+      "lore": "&d稀有度:&e[傳說]&9✭✭✭\\n&6完整的魔力之石.",
+      "enchanted": true
+    },
+    "鑰匙希亞金鑰": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&7[&6鑰匙&7]&b希亞&e金鑰",
+      "lore": "&7可以用作開啟&b☫&6希亞寶物箱&b☫",
+      "enchanted": true
+    },
+    "異世之鑽": {
+      "type": "item",
+      "imageId": "diamond",
+      "name": "&6☫&b異世之鑽&6☫",
+      "lore": "&7耐久 X\\n&d稀有度:&e✯✯✯✯✯\\n &6異世界中的\\n &6璀璨稱奪目的寶石\\n &6可用於製作防具\\n &6也聽說似乎有\\n &6商人喜歡這顆寶石呢..",
+      "enchanted": true
+    },
+    "希亞幣": {
+      "type": "item",
+      "imageId": "diamond",
+      "name": "&b希亞幣",
+      "lore": "&7耐久 X\\n&b造型與鑽石很像,\\n&b閃閃發光，使用一些融合\\n&b魔法金屬製煉而成.\\n&b為希利斯特蘭亞\\n&b交易貨幣之一\\n&f(&c試煉活動兌換道具&f)",
+      "enchanted": true
+    },
+    "活動名劍莫邪": {
+      "type": "item",
+      "imageId": "iron_sword",
+      "name": "&6【&d活動&6】&e名劍&c❖&4莫邪",
+      "lore": "&7絲綢之觸\\n&7耐久 III\\n&e一陰一陽之謂道\\n&f陰日莫邪\\n&c極端之物\\n&8陰陽失調 一無所成 徒勞無益\\n\\n&7在非慣用手時:\\n&9+4 攻擊速度\\n&c-8 攻撃傷害\\n&9無法破壞的",
+      "enchanted": true
+    },
+    "活動名劍干將": {
+      "type": "item",
+      "imageId": "diamond_sword",
+      "name": "&6【&d活動&6】&e名劍&c❖&b干將",
+      "lore": "&7掠奪 III\\n&7絲綢之觸\\n&7不死剋星 III\\n&7橫掃之刃 I\\n&7耐久 III\\n&e一陰一陽之謂道\\n&b陽日干將\\n&c極端之物\\n&8陰陽失調 一無所成 徒勞無益\\n\\n&7在非慣用手時:\\n&9-4 攻擊速度\\n&c+24 攻撃傷害\\n&9無法破壞的",
+      "enchanted": true
+    },
+    "築歲平安稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&a築&b歲&6平安&e✧&d◝(⁰▿⁰)◜&e✧&7>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019新年活動",
+      "enchanted": false
+    },
+    "吉祥如豬稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&e吉祥&d如豬 &c(〃´∀｀〃)ε｀●)&7>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019新年活動",
+      "enchanted": false
+    },
+    "活動願者上釣": {
+      "type": "item",
+      "imageId": "fishing_rod",
+      "name": "&6【&d活動&6】&a願者上釣&e(๑╹◡╹๑)",
+      "lore": "&7海洋的祝福 II\\n&7魚餌 II\\n&7修補\\n&7耐久 X\\n&e姜太公釣魚可以願者上釣，\\n&e你可以嗎？",
+      "enchanted": true
+    },
+    "enchanted_book_looting": {
+      "type": "item",
+      "imageId": "enchanted_book",
+      "name": "&e附魔書",
+      "lore": "&7掠奪 III",
+      "enchanted": true
+    },
+    "草原上的新春草泥馬": {
+      "type": "item",
+      "imageId": "spawn_egg_llama",
+      "name": "&6【&a草原上的&6】&c新春&b草泥馬",
+      "lore": "",
+      "enchanted": false
+    },
+    "magma_block": {
+      "type": "block",
+      "imageId": "magma",
+      "name": "岩漿塊",
+      "lore": "",
+      "enchanted": false
+    },
+    "spawn_egg_pig": {
+      "type": "item",
+      "imageId": "spawn_egg_pig",
+      "name": "豬 生怪蛋",
+      "lore": "",
+      "enchanted": false
+    },
+    "鑰匙新年寶箱": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&6【&b鑰匙&6】&c新年寶箱",
+      "lore": "&7可以用作開啟&c新年寶箱",
+      "enchanted": true
+    },
+    "gold_block": {
+      "type": "block",
+      "imageId": "gold_block",
+      "name": "金磚",
+      "lore": "",
+      "enchanted": false
+    },
+    "iron_block": {
+      "type": "block",
+      "imageId": "iron_block",
+      "name": "鐵磚",
+      "lore": "",
+      "enchanted": false
+    },
+    "red_glazed_terracotta": {
+      "type": "block",
+      "imageId": "red_glazed_terracotta",
+      "name": "紅色釉陶",
+      "lore": "",
+      "enchanted": false
+    },
+    "bricks": {
+      "type": "block",
+      "imageId": "bricks",
+      "name": "紅磚",
+      "lore": "",
+      "enchanted": false
+    },
+    "cooked_porkchop": {
+      "type": "item",
+      "imageId": "cooked_porkchop",
+      "name": "烤豬肉",
+      "lore": "",
+      "enchanted": false
+    },
+    "rose_red": {
+      "type": "item",
+      "imageId": "rose_red",
+      "name": "玫瑰紅",
+      "lore": "",
+      "enchanted": false
+    },
+    "dried_kelp": {
+      "type": "item",
+      "imageId": "dried_kelp",
+      "name": "海帶乾",
+      "lore": "",
+      "enchanted": false
+    },
+    "2019新年抽抽樂鎖匙": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&c2019 &6新年抽抽樂 &a鎖匙",
+      "lore": "",
+      "enchanted": true
+    }
+  },
+  "lotteryGroups": [
+    {
+      "title": "生存伺服器",
+      "lotteries": [
+        "中秋節寶箱",
+        "希亞寶物箱",
+        "新年寶箱"
+      ]
+    }
+  ],
+  "lotteries": {
+    "中秋節寶箱": {
+      "title": "&6◊ &e中秋節寶箱 &6◊",
+      "items": [
+        {"id": "吃燈籠玩月餅稱號書", "qty": 1},
+        {"id": "中秋你註定一人稱號書", "qty": 1},
+        {"id": "活動明月之劍", "qty": 1},
+        {"id": "活動月下玉兔", "qty": 1},
+        {"id": "鑰匙中秋節寶箱", "qty": 1},
+        {"id": "活動羅伯蘿蔔", "qty": 1},
+        {"id": "diamond", "qty": 5},
+        {"id": "iron_ingot", "qty": 5},
+        {"id": "gold_ingot", "qty": 5},
+        {"id": "活動月餅", "qty": 4},
+        {"id": "活動月之碎片", "qty": 5},
+        {"id": "sponge", "qty": 1},
+        {"id": "golden_apple", "qty": 2},
+        {"id": "yellow_glazed_terracotta", "qty": 32},
+        {"id": "emerald", "qty": 2},
+        {"id": "horn_coral_fan", "qty": 2},
+        {"id": "horn_coral", "qty": 2}
+      ],
+      "keys": [
+        {
+          "itemId": "2019中秋抽抽樂鎖匙",
+          "qty": 1,
+          "exchanges": [
+            [{"money": 950.00}]
+          ]
+        },
+        {
+          "itemId": "2019中秋抽抽樂鎖匙",
+          "qty": 32,
+          "exchanges": [
+            [{"money": 30400.00}]
+          ]
+        }
+      ]
+    },
+    "希亞寶物箱": {
+      "title": "&b☫ &6希亞寶物箱 &b☫",
+      "items": [
+        {"id": "希亞希亞燦爛原石", "qty": 1},
+        {"id": "歐洲七葉樹稱號書", "qty": 1},
+        {"id": "diamond", "qty": 10},
+        {"id": "diamond", "qty": 20},
+        {"id": "iron_ingot", "qty": 15},
+        {"id": "gold_ingot", "qty": 15},
+        {"id": "diamond_sword", "qty": 1},
+        {"id": "rabbit_foot", "qty": 5},
+        {"id": "experience_bottle", "qty": 10},
+        {"id": "totem_of_undying", "qty": 1},
+        {"id": "emerald", "qty": 10},
+        {"id": "fermented_spider_eye", "qty": 10},
+        {"id": "emerald_block", "qty": 1},
+        {"id": "希亞希亞金石碎片", "qty": 1},
+        {"id": "希亞希亞金石碎片", "qty": 3},
+        {"id": "希亞希亞金石碎片", "qty": 5},
+        {"id": "希亞希亞完整金石", "qty": 1},
+        {"id": "希亞希亞完整金石", "qty": 3},
+        {"id": "希亞希亞完整金石", "qty": 5},
+        {"id": "希亞希亞魔力碎片", "qty": 1},
+        {"id": "希亞希亞魔力碎片", "qty": 3},
+        {"id": "希亞希亞魔力碎片", "qty": 5},
+        {"id": "希亞希亞完整魔石", "qty": 1},
+        {"id": "希亞希亞完整魔石", "qty": 3},
+        {"id": "希亞希亞完整魔石", "qty": 5}
+      ],
+      "keys": [
+        {
+          "itemId": "鑰匙希亞金鑰",
+          "qty": 1,
+          "exchanges": [
+            [{"money": 6000.00}]
+          ]
+        },
+        {
+          "itemId": "鑰匙希亞金鑰",
+          "qty": 10,
+          "exchanges": [
+            [{"money": 48000.00}]
+          ]
+        },
+        {
+          "itemId": "鑰匙希亞金鑰",
+          "qty": 1,
+          "exchanges": [
+            [{"id": "異世之鑽", "qty": 1}]
+          ]
+        },
+        {
+          "itemId": "鑰匙希亞金鑰",
+          "qty": 1,
+          "exchanges": [
+            [{"id": "希亞幣", "qty": 32}]
+          ]
+        }
+      ]
+    },
+    "新年寶箱": {
+      "title": "&6◊ &c新年寶箱 &6◊",
+      "items": [
+        {"id": "活動名劍莫邪", "qty": 1},
+        {"id": "活動名劍干將", "qty": 1},
+        {"id": "築歲平安稱號書", "qty": 1},
+        {"id": "吉祥如豬稱號書", "qty": 1},
+        {"id": "活動願者上釣", "qty": 1},
+        {"id": "enchanted_book_looting", "qty": 1},
+        {"id": "diamond", "qty": 8},
+        {"id": "diamond", "qty": 6},
+        {"id": "草原上的新春草泥馬", "qty": 1},
+        {"id": "magma_block", "qty": 48},
+        {"id": "spawn_egg_pig", "qty": 3},
+        {"id": "鑰匙新年寶箱", "qty": 1},
+        {"id": "gold_block", "qty": 3},
+        {"id": "iron_block", "qty": 6},
+        {"id": "red_glazed_terracotta", "qty": 48},
+        {"id": "bricks", "qty": 32},
+        {"id": "cooked_porkchop", "qty": 32},
+        {"id": "rose_red", "qty": 64},
+        {"id": "dried_kelp", "qty": 32}
+      ],
+      "keys": [
+        {
+          "itemId": "2019新年抽抽樂鎖匙",
+          "qty": 1,
+          "exchanges": [
+            [{"money": 888.00}]
+          ]
+        },
+        {
+          "itemId": "2019新年抽抽樂鎖匙",
+          "qty": 32,
+          "exchanges": [
+            [{"money": 28420.00}]
+          ]
+        }
+      ]
+    }
+  }
+}

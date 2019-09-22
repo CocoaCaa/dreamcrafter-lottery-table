@@ -11,7 +11,7 @@
     <div
       v-if="value.enchanted"
       class="item__enchant"
-      :style="{ 'mask-image': `url(${value.type === 'item' ? imageSrc : '/images/block-mask.png'})` }"
+      :style="{ 'mask-image': `url(${value.type === 'item' ? imageSrc : blockMaskImageSrc})` }"
     />
     <div v-if="qty > 1" class="item__qty">{{qty}}</div>
     <div
@@ -46,8 +46,12 @@ export default class Item extends Vue {
   @Prop({ default: 1 })
   public qty!: number;
 
+  public get blockMaskImageSrc() {
+    return `${process.env.BASE_URL}img/block-mask.png`;
+  }
+
   public get imageSrc() {
-    return `/images/${this.value.type}/${this.value.imageId}.png`;
+    return `${process.env.BASE_URL}img/${this.value.type}/${this.value.imageId}.png`;
   }
 
   public isHovering = false;
@@ -75,7 +79,7 @@ export default class Item extends Vue {
     top: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../assets/enchanted_item_glint.png);
+    background-image: url('../assets/enchanted_item_glint.png');
     background-size: 100px;
     background-color: #e240ff;
     background-blend-mode: darken;

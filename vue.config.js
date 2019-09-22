@@ -1,5 +1,6 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-        ? '/dreamcrafter-lottery-table/'
-        : '/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/dreamcrafter-lottery-table/'
+    : '/',
+  outputDir: 'docs',
 }
