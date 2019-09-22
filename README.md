@@ -18,6 +18,10 @@ https://minixz.github.io/dreamcrafter-lottery-table/
 ![Static](/screenshots/dreamcrafter-lottery-table-screenshot.png)
 ![Hover](/screenshots/dreamcrafter-lottery-table-screenshot-2.gif)
 
+## 參與 Contributing
+
+詳細請看 [CONTRIBUTING.md](/CONTRIBUTING.md) (English)
+
 [Minecraft](https://www.minecraft.net) is copyright Mojang AB / Microsoft and is not affiliated with this site.
 
 抽抽樂 is owned by © DREAMCRAFTER https://www.letsdream.today
