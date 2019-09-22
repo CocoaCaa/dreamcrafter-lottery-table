@@ -76,8 +76,8 @@ export default class Item extends Vue {
     right: 0;
     bottom: 0;
     background-image: url(../assets/enchanted_item_glint.png);
-    background-size: 64px;
-    background-color: #dd20ff;
+    background-size: 100px;
+    background-color: #e240ff;
     background-blend-mode: darken;
     mix-blend-mode: lighten;
     animation: enchant-effect 5s linear infinite;
@@ -136,7 +136,7 @@ export default class Item extends Vue {
   }
 
   100% {
-    background-position: -64px 64px;
+    background-position: -100px 100px;
   }
 }
 </style>

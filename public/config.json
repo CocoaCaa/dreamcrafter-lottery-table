@@ -124,7 +124,7 @@
       "imageId": "tripwire_hook",
       "name": "&62019 中秋抽抽樂 &a鎖匙",
       "lore": "",
-      "enchanted": false
+      "enchanted": true
     }
   },
   "lotteries": {
