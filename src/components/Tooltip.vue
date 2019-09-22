@@ -33,7 +33,11 @@ export default class Tooltip extends Vue {
   }
 
   public handleMouseMove(ev: MouseEvent) {
-    this.style.left = `${ev.pageX + 10}px`;
+    let x = ev.pageX + 10;
+    if (x + this.refRoot.clientWidth > document.body.clientWidth) {
+      x = ev.pageX - this.refRoot.clientWidth - 10;
+    }
+    this.style.left = `${x}px`;
     this.style.top = `${ev.pageY - 20}px`;
   }
 }
@@ -49,5 +53,6 @@ export default class Tooltip extends Vue {
   pointer-events: none;
   color: white;
   line-height: 1.3;
+  white-space: nowrap;
 }
 </style>
