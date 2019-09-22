@@ -22,6 +22,11 @@
         />
       </div>
     </div>
+    <div class="app__updating">更多資訊更新中...</div>
+    <footer>
+      <p>抽抽樂 is owned by &copy;DREAMCRAFTER <a href="https://www.letsdream.today">https://www.letsdream.today</a></p>
+      <p>dreamcrafter-lottery-table site is develop by <a href="https://github.com/minixzy">@minixz</a></p>
+    </footer>
   </div>
 </template>
 
@@ -96,5 +101,25 @@ body {
 
 .app__lottery-table {
   margin: 0 10px;
+}
+
+.app__updating {
+  text-align: center;
+  color: #7a7a7a;
+  margin: 30px 0;
+}
+
+footer {
+  text-align: center;
+  color: #7a7a7a;
+}
+
+a {
+  color: #b8b8b8;
+  text-decoration: none;
+
+  &:hover {
+    color: #fe4641;
+  }
 }
 </style>
