@@ -358,6 +358,16 @@
       "enchanted": true
     }
   },
+  "lotteryGroups": [
+    {
+      "title": "生存伺服器",
+      "lotteries": [
+        "中秋節寶箱",
+        "希亞寶物箱",
+        "新年寶箱"
+      ]
+    }
+  ],
   "lotteries": {
     "中秋節寶箱": {
       "title": "&6◊ &e中秋節寶箱 &6◊",

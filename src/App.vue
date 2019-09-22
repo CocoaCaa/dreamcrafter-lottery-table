@@ -11,20 +11,28 @@
       class="app__container"
     >
       <div
-        class="app__lottery-tables"
+        v-for="(lotteryGroup, idx) in config.lotteryGroups"
+        :key="idx"
+        class="app__lottery-groups"
       >
-        <LotteryTable
-          v-for="(lottery, id) in config.lotteries"
-          :key="id"
-          :value="lottery"
-          :config-items="config.items"
-          class="app__lottery-table"
-        />
+        <h2>{{lotteryGroup.title}}</h2>
+        <div class="app__lottery-tables">
+          <LotteryTable
+            v-for="lotteryId in lotteryGroup.lotteries"
+            :key="lotteryId"
+            :value="config.lotteries[lotteryId]"
+            :config-items="config.items"
+            class="app__lottery-table"
+          />
+        </div>
       </div>
     </div>
     <div class="app__updating">更多資訊更新中...</div>
     <footer>
-      <p>抽抽樂 is owned by &copy;DREAMCRAFTER <a href="https://www.letsdream.today">https://www.letsdream.today</a></p>
+      <p>
+        <a href="https://www.minecraft.net">Minecraft</a> is copyright Mojang AB / Microsoft and is not affiliated with this site.
+      </p>
+      <p>抽抽樂 is owned by &copy; DREAMCRAFTER <a href="https://www.letsdream.today">https://www.letsdream.today</a></p>
       <p>dreamcrafter-lottery-table site is develop by <a target="_blank" href="https://github.com/minixz">@minixz</a></p>
     </footer>
   </div>
@@ -112,6 +120,10 @@ body {
 footer {
   text-align: center;
   color: #7a7a7a;
+
+  > p {
+    margin: 5px 0;
+  }
 }
 
 a {

@@ -117,7 +117,7 @@ export default class LotteryTable extends Vue {
   }
 
   .lottery-table__exchange-table {
-    margin: 15px 0;
+    margin: 15px 20px;
   }
 
   .exchange-table__title {
