@@ -1,12 +1,17 @@
 <template>
   <div id="app">
     <!-- <h1>DreamCrafter Lottery Table</h1> -->
-    <LotteryTable
-      v-for="(lottery, id) in config.lotteries"
-      :key="id"
-      :value="lottery"
-      :config-items="config.items"
-    />
+    <div
+      class="app__lottery-tables"
+    >
+      <LotteryTable
+        v-for="(lottery, id) in config.lotteries"
+        :key="id"
+        :value="lottery"
+        :config-items="config.items"
+        class="app__lottery-table"
+      />
+    </div>
   </div>
 </template>
 
@@ -42,9 +47,30 @@ export default class App extends Vue {
 
 body {
   font-family: unifont, Arial, sans-serif;
+  background-color: #202020;
 }
 
 #app {
-  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  color: #ffffff;
+
+  @media screen and (max-width: 1200px) {
+    margin: 0 10px;
+  }
+}
+
+.app__lottery-tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media screen and (max-width: 780px) {
+    justify-content: center;
+  }
+}
+
+.app__lottery-table {
+  margin: 0 10px;
 }
 </style>
