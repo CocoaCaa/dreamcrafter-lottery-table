@@ -25,11 +25,11 @@ export default class Tooltip extends Vue {
 
   public mounted() {
     document.body.append(this.refRoot);
-    document.body.addEventListener('mousemove', this.handleMouseMove.bind(this));
+    document.body.addEventListener('mousemove', this.handleMouseMove);
   }
 
   public beforeDestroy() {
-    document.body.removeEventListener('mousemove', this.handleMouseMove.bind(this));
+    document.body.removeEventListener('mousemove', this.handleMouseMove);
   }
 
   public handleMouseMove(ev: MouseEvent) {
