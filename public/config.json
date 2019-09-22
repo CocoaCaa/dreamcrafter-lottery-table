@@ -159,7 +159,7 @@
       "imageId": "experience_bottle",
       "name": "&e經驗瓶",
       "lore": "",
-      "enchanted": false
+      "enchanted": true
     },
     "totem_of_undying": {
       "type": "item",
