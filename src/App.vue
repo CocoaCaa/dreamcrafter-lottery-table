@@ -89,6 +89,12 @@ body {
   margin: 0 0 10px 0;
   padding: 20px 0;
   background-color: #000;
+
+  > .app__container {
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+    }
+  }
 }
 
 .app__github-star-button {
