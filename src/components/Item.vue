@@ -15,12 +15,15 @@
     />
     <div v-if="qty > 1" class="item__qty">{{qty}}</div>
     <div
+      ref="cover"
       class="item__cover"
       @mouseenter="handleMouseEnter"
       @mouseleave="handleMouseLeave"
     />
     <Tooltip
       v-if="isHovering"
+      @request-close="isHovering = false"
+      :init-position="{ x: cover.getBoundingClientRect().left, y: cover.getBoundingClientRect().top }"
     >
       <MinecraftText :value="value.name" />
       <MinecraftText v-if="value.lore" style="margin-top: 10px;" :value="value.lore" />
@@ -29,7 +32,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop } from 'vue-property-decorator';
+import { Component, Vue, Prop, Ref } from 'vue-property-decorator';
 import Tooltip from './Tooltip.vue';
 import MinecraftText from './MinecraftText.vue';
 
@@ -46,6 +49,9 @@ export default class Item extends Vue {
   @Prop({ default: 1 })
   public qty!: number;
 
+  @Ref()
+  public cover!: HTMLDivElement;
+
   public get blockMaskImageSrc() {
     return `${process.env.BASE_URL}img/block-mask.png`;
   }
@@ -55,6 +61,14 @@ export default class Item extends Vue {
   }
 
   public isHovering = false;
+
+  public mounted() {
+    this.cover.addEventListener('touchstart', this.handleMouseEnter);
+  }
+
+  public beforeDestroy() {
+    this.cover.removeEventListener('touchstart', this.handleMouseEnter);
+  }
 
   public handleMouseEnter() {
     this.isHovering = true;

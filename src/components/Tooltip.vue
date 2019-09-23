@@ -18,6 +18,9 @@ interface Style {
 
 @Component
 export default class Tooltip extends Vue {
+  @Prop({ default: () => ({ x: 0, y: 0 }) })
+  public initPosition!: { x: number, y: number };
+
   @Ref()
   public refRoot!: HTMLDivElement;
 
@@ -26,6 +29,8 @@ export default class Tooltip extends Vue {
   public mounted() {
     document.body.append(this.refRoot);
     document.body.addEventListener('mousemove', this.handleMouseMove);
+    document.body.addEventListener('touchstart', () => this.$emit('request-close'));
+    this.setPosition(this.initPosition.x, this.initPosition.y);
   }
 
   public beforeDestroy() {
@@ -33,12 +38,19 @@ export default class Tooltip extends Vue {
   }
 
   public handleMouseMove(ev: MouseEvent) {
-    let x = ev.pageX + 10;
+    this.setPosition(ev.pageX, ev.pageY);
+  }
+
+  private setPosition(sourceX: number, sourceY: number) {
+    let x = sourceX + 10;
     if (x + this.refRoot.clientWidth > document.body.clientWidth) {
-      x = ev.pageX - this.refRoot.clientWidth - 10;
+      x = sourceX - this.refRoot.clientWidth - 10;
+    }
+    if (x - this.refRoot.clientWidth < 0) {
+      x = 0;
     }
     this.style.left = `${x}px`;
-    this.style.top = `${ev.pageY - 20}px`;
+    this.style.top = `${sourceY - 20}px`;
   }
 }
 </script>
@@ -54,5 +66,10 @@ export default class Tooltip extends Vue {
   color: white;
   line-height: 1.3;
   white-space: nowrap;
+
+  @media screen and (max-width: 480px) {
+    white-space: inherit;
+    max-width: 100vw;
+  }
 }
 </style>
