@@ -356,6 +356,111 @@
       "name": "&c2019 &6新年抽抽樂 &a鎖匙",
       "lore": "",
       "enchanted": true
+    },
+    "活動聖經": {
+      "type": "item",
+      "imageId": "enchanted_book",
+      "name": "&6【&d活動&6】&e聖經",
+      "lore": "&7耐久X\\n&f聽說是記錄著各種事跡的書籍\\n&f很多人也喜愛閱讀它\\n&7如果不小心被它打中頭會很痛嗎...?\\n&6-------------\\n&e2019年復活節抽抽樂獎品\\n\\n&7在慣用手時:\\n&9+4 攻撃傷害\\n&7在非慣用手時:\\n&9+2 攻撃傷害",
+      "enchanted": true
+    },
+    "活動奇蹟兔之國的夢幻茶杯": {
+      "type": "item",
+      "imageId": "dragon_breath",
+      "name": "&6【&d活動&6】 &6奇蹟:&f兔之國&6的&b夢幻茶杯",
+      "lore": "&7絲绸之觸\\n&a透過右鍵能夠獲得完整的飢餓度(600秒冷卻)\\n&b在不同的國度有著不同的奇蹟\\n&b兔之國的獨有奇蹟\\n&dFantasy",
+      "enchanted": true
+    },
+    "夢遊仙境稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<X&b夢遊仙境&f.*･｡ﾟ&7>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019年復活節活動",
+      "enchanted": false
+    },
+    "活動聖十字架": {
+      "type": "item",
+      "imageId": "totem_of_undying",
+      "name": "&6【&d活動&6】&e聖十字&f架",
+      "lore": "&7聽說只要拿起他之後就可以保平安!!\\n&7是真的嗎",
+      "enchanted": false
+    },
+    "鑰匙復活節寶箱": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&6【&b鑰匙&6】&e復活節寶箱",
+      "lore": "&7可以用作開啟&e復活節寶箱",
+      "enchanted": true
+    },
+    "復活節寶箱": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&6【&b鑰匙&6】&e復活節寶箱",
+      "lore": "&7可以用作開啟&e復活節寶箱",
+      "enchanted": true
+    },
+    "復活節兔兔": {
+      "type": "item",
+      "imageId": "spawn_egg_rabbit",
+      "name": "&b復活節兔兔",
+      "lore": "&7幸運III\\n&a只有在復活節才出現的兔子\\n&a充滿幸運的氣息",
+      "enchanted": true
+    },
+    "活動Drinkme喝我": {
+      "type": "item",
+      "imageId": "potion_red",
+      "name": "&6【&d活動&6】&fDrink me&d!!&f-&b喝我!!",
+      "lore": "&9立即治療\\n&9立即治療\\n&7上面寫著 [ Drink me !! ] 的紙條\\n&7會有什麼效果嗎?....",
+      "enchanted": true
+    },
+    "活動耶穌的頭像": {
+      "type": "item",
+      "imageId": "player_head_jesus",
+      "name": "&6【&b活動&6】&f耶穌的&b頭像",
+      "lore": "&7把這個頭像拿在手中\\n&7好像有一種神聖的光在背後",
+      "enchanted": false
+    },
+    "egg": {
+      "type": "item",
+      "imageId": "egg",
+      "name": "雞蛋",
+      "lore": "",
+      "enchanted": false
+    },
+    "bubble_coral": {
+      "type": "item",
+      "imageId": "bubble_coral",
+      "name": "氣泡珊瑚",
+      "lore": "",
+      "enchanted": false
+    },
+    "fire_coral": {
+      "type": "item",
+      "imageId": "fire_coral",
+      "name": "火珊瑚",
+      "lore": "",
+      "enchanted": false
+    },
+    "tube_coral": {
+      "type": "item",
+      "imageId": "tube_coral",
+      "name": "管珊瑚",
+      "lore": "",
+      "enchanted": false
+    },
+    "brain_coral": {
+      "type": "item",
+      "imageId": "brain_coral",
+      "name": "腦珊瑚",
+      "lore": "",
+      "enchanted": false
+    },
+    "2019復活節抽抽樂鎖匙": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&c2019 &6復活節抽抽樂 &a鎖匙",
+      "lore": "",
+      "enchanted": true
     }
   },
   "lotteryGroups": [
@@ -364,7 +469,8 @@
       "lotteries": [
         "中秋節寶箱",
         "希亞寶物箱",
-        "新年寶箱"
+        "新年寶箱",
+        "復活節寶箱"
       ]
     }
   ],
@@ -403,6 +509,13 @@
           "qty": 32,
           "exchanges": [
             [{"money": 30400.00}]
+          ]
+        },
+        {
+          "itemId": "鑰匙中秋節寶箱",
+          "qty": 1,
+          "exchanges": [
+            [{"id": "活動月之碎片", "qty": 32}]
           ]
         }
       ]
@@ -503,6 +616,47 @@
           "qty": 32,
           "exchanges": [
             [{"money": 28420.00}]
+          ]
+        }
+      ]
+    },
+    "復活節寶箱": {
+      "title": "&6◊ &e復活節寶箱 &6◊",
+      "items": [
+        {"id": "活動聖經", "qty": 1},
+        {"id": "活動奇蹟兔之國的夢幻茶杯", "qty": 1},
+        {"id": "夢遊仙境稱號書", "qty": 1},
+        {"id": "活動聖十字架", "qty": 1},
+        {"id": "鑰匙復活節寶箱", "qty": 1},
+        {"id": "復活節兔兔", "qty": 1},
+        {"id": "活動Drinkme喝我", "qty": 1},
+        {"id": "活動耶穌的頭像", "qty": 1},
+        {"id": "diamond", "qty": 5},
+        {"id": "iron_ingot", "qty": 5},
+        {"id": "gold_ingot", "qty": 5},
+        {"id": "egg", "qty": 4},
+        {"id": "sponge", "qty": 1},
+        {"id": "golden_apple", "qty": 2},
+        {"id": "yellow_glazed_terracotta", "qty": 32},
+        {"id": "emerald", "qty": 2},
+        {"id": "bubble_coral", "qty": 2},
+        {"id": "fire_coral", "qty": 2},
+        {"id": "tube_coral", "qty": 2},
+        {"id": "brain_coral", "qty": 2}
+      ],
+      "keys": [
+        {
+          "itemId": "2019復活節抽抽樂鎖匙",
+          "qty": 1,
+          "exchanges": [
+            [{"money": 864.00}]
+          ]
+        },
+        {
+          "itemId": "2019復活節抽抽樂鎖匙",
+          "qty": 32,
+          "exchanges": [
+            [{"money": 27650.00}]
           ]
         }
       ]
