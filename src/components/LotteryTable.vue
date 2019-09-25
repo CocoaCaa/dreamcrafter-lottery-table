@@ -53,6 +53,7 @@
               <Item
                 v-else-if="exchangeItem.id"
                 :value="configItems[exchangeItem.id]"
+                :qty="exchangeItem.qty"
               />
               <span class="exchange-table__plus">+</span>
             </div>
