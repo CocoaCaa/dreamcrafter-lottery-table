@@ -71,7 +71,8 @@ export default class App extends Vue {
 <style lang="scss">
 @font-face {
   font-family: unifont;
-  src: url(./assets/font/unifont-12.1.03.ttf);
+  font-display: swap;
+  src: url(./assets/font/unifont-12.1.03.woff2);
 }
 
 * {
