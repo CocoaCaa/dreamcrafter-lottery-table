@@ -461,12 +461,167 @@
       "name": "&c2019 &6復活節抽抽樂 &a鎖匙",
       "lore": "",
       "enchanted": true
+    },
+    "三週年小花頭顱": {
+      "type": "item",
+      "imageId": "player_head_小花",
+      "name": "&6【&d三週年&6】&c小花頭顱",
+      "lore": "",
+      "enchanted": false
+    },
+    "三週年小側側頭顱": {
+      "type": "item",
+      "imageId": "player_head_小側側",
+      "name": "&6【&d三週年&6】&7小側側頭顱",
+      "lore": "",
+      "enchanted": false
+    },
+    "三週年RS頭顱": {
+      "type": "item",
+      "imageId": "player_head_RS",
+      "name": "&6【&d三週年&6】&dRS頭顱",
+      "lore": "",
+      "enchanted": false
+    },
+    "三週年兔子頭顱": {
+      "type": "item",
+      "imageId": "player_head_兔子",
+      "name": "&6【&d三週年&6】&b兔子頭顱",
+      "lore": "",
+      "enchanted": false
+    },
+    "三週年竹卡頭顱": {
+      "type": "item",
+      "imageId": "player_head_竹卡",
+      "name": "&6【&d三週年&6】&a竹卡頭顱",
+      "lore": "",
+      "enchanted": false
+    },
+    "三週年比例頭顱": {
+      "type": "item",
+      "imageId": "player_head_比例",
+      "name": "&6【&d三週年&6】&9比例頭顱",
+      "lore": "",
+      "enchanted": false
+    },
+    "三週年柚兔頭顱": {
+      "type": "item",
+      "imageId": "player_head_柚兔",
+      "name": "&6【&d三週年&6】&a柚兔頭顱",
+      "lore": "",
+      "enchanted": false
+    },
+    "三週年好貓頭顱": {
+      "type": "item",
+      "imageId": "player_head_好貓",
+      "name": "&6【&d三週年&6】&7好貓頭顱",
+      "lore": "",
+      "enchanted": false
+    },
+    "三週年小光頭顱": {
+      "type": "item",
+      "imageId": "player_head_小光",
+      "name": "&6【&d三週年&6】&e小光頭顱",
+      "lore": "",
+      "enchanted": false
+    },
+    "人生如夢稱號書": {
+      "type": "item",
+      "imageId": "book",
+      "name": "&7<<&b人生&f如夢&7(¯﹃¯)>> &e稱號書",
+      "lore": "&a獲得方法 &7‒ &62019年三周年抽抽樂",
+      "enchanted": false
+    },
+    "三週年路西法之槍": {
+      "type": "item",
+      "imageId": "trident",
+      "name": "&6【&e三週年&6】&d路西法&7❖&f之槍",
+      "lore": "&7喚雷\\n&7燃燒 II\\n&7掠奪 I\\n&7忠誠 III\\n&7耐久 X\\n&e-------\\n&7在世界某一處的地方,\\n&7總會存在着一點希望吧...\\n\\n&7在慣用手時:\\n &21.1 攻撃速度\\n &29 攻撃傷害",
+      "enchanted": true
+    },
+    "三週年詩寇蒂的帽": {
+      "type": "item",
+      "imageId": "turtle_helmet",
+      "name": "&6【&d三週年&6】&a詩寇蒂&7⟐&3的帽",
+      "lore": "&7修補\\n&7保護 III\\n&7水中呼吸 I\\n&7-------\\n&e看向星星的日子&fﾟ.*.｡ﾟ\\n&a樹下的回憶...",
+      "enchanted": true
+    },
+    "三週年烏爾德內心": {
+      "type": "item",
+      "imageId": "iron_chestplate",
+      "name": "&6【&d三週年&6】&f烏爾德&8◈&7內心",
+      "lore": "&7火焰保護 IV\\n&7修補\\n&7保護 IV\\n&7-------\\n&e在樹根的底下,\\n&7你在期待什麼呢...?\\n\\n&7裝備在身上時:\\n&9+6 盔甲",
+      "enchanted": true
+    },
+    "三週年烏爾德命運": {
+      "type": "item",
+      "imageId": "iron_leggings",
+      "name": "&6【&d三週年&6】&f烏爾德&8◈&b命運",
+      "lore": "&7深海漫遊 II\\n&7修補\\n&7保護 IV\\n&7-------\\n&b所以我說...\\n&7過去的回憶也是不可缺的一部分!!\\n\\n&7裝備在腿上時:\\n&9+5 盔甲",
+      "enchanted": true
+    },
+    "三週年烏爾德之路": {
+      "type": "item",
+      "imageId": "iron_boots",
+      "name": "&6【&d三週年&6】&f烏爾德&8◈&3之路",
+      "lore": "&7輕盈 IV\\n&7修補\\n&7保護 IV\\n&7-------\\n&3人生如夢&7⧉\\n&7所有事情交給神樹決定吧\\n\\n&7裝備在腳上時:\\n&9+2 盔甲",
+      "enchanted": true
+    },
+    "三週年水中之光": {
+      "type": "item",
+      "imageId": "sea_pickle",
+      "name": "&6【&d三週年&6】&b水中&f之&e光",
+      "lore": "",
+      "enchanted": false
+    },
+    "三週年生日快樂": {
+      "type": "item",
+      "imageId": "cake",
+      "name": "&6【&d三週年&6】&f生日快樂&c❤",
+      "lore": "",
+      "enchanted": false
+    },
+    "pink_glazed_terracotta": {
+      "type": "block",
+      "imageId": "pink_glazed_terracotta",
+      "name": "&f粉紅色釉陶",
+      "lore": "",
+      "enchanted": false
+    },
+    "light_blue_glazed_terracotta": {
+      "type": "block",
+      "imageId": "light_blue_glazed_terracotta",
+      "name": "&f淺藍色釉陶",
+      "lore": "",
+      "enchanted": false
+    },
+    "red_concrete": {
+      "type": "block",
+      "imageId": "red_concrete",
+      "name": "&f紅色混凝土",
+      "lore": "",
+      "enchanted": false
+    },
+    "quartz": {
+      "type": "item",
+      "imageId": "quartz",
+      "name": "&f地獄石英",
+      "lore": "",
+      "enchanted": false
+    },
+    "2019三週年抽抽樂鎖匙": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&b2019 三週年抽抽樂 &a鎖匙",
+      "lore": "",
+      "enchanted": true
     }
   },
   "lotteryGroups": [
     {
       "title": "生存伺服器",
       "lotteries": [
+        "三周年寶箱",
         "中秋節寶箱",
         "希亞寶物箱",
         "復活節寶箱"
@@ -662,6 +817,50 @@
           "qty": 32,
           "exchanges": [
             [{"money": 27650.00}]
+          ]
+        }
+      ]
+    },
+    "三周年寶箱": {
+      "title": "&6◊ &e三周年寶箱 &6◊",
+      "items": [
+        {"id": "三週年小花頭顱", "qty": 1},
+        {"id": "三週年小側側頭顱", "qty": 1},
+        {"id": "三週年RS頭顱", "qty": 1},
+        {"id": "三週年兔子頭顱", "qty": 1},
+        {"id": "三週年竹卡頭顱", "qty": 1},
+        {"id": "三週年比例頭顱", "qty": 1},
+        {"id": "三週年柚兔頭顱", "qty": 1},
+        {"id": "三週年好貓頭顱", "qty": 1},
+        {"id": "三週年小光頭顱", "qty": 1},
+        {"id": "人生如夢稱號書", "qty": 1},
+        {"id": "三週年路西法之槍", "qty": 1},
+        {"id": "三週年詩寇蒂的帽", "qty": 1},
+        {"id": "三週年烏爾德內心", "qty": 1},
+        {"id": "三週年烏爾德命運", "qty": 1},
+        {"id": "三週年烏爾德之路", "qty": 1},
+        {"id": "三週年水中之光", "qty": 1},
+        {"id": "三週年生日快樂", "qty": 1},
+        {"id": "pink_glazed_terracotta", "qty": 16},
+        {"id": "light_blue_glazed_terracotta", "qty": 16},
+        {"id": "red_concrete", "qty": 16},
+        {"id": "diamond", "qty": 4},
+        {"id": "emerald", "qty": 4},
+        {"id": "quartz", "qty": 2}
+      ],
+      "keys": [
+        {
+          "itemId": "2019三週年抽抽樂鎖匙",
+          "qty": 1,
+          "exchanges": [
+            [{"money": 980.00}]
+          ]
+        },
+        {
+          "itemId": "2019三週年抽抽樂鎖匙",
+          "qty": 32,
+          "exchanges": [
+            [{"money": 31360.00}]
           ]
         }
       ]
