@@ -615,22 +615,135 @@
       "name": "&b2019 三週年抽抽樂 &a鎖匙",
       "lore": "",
       "enchanted": true
+    },
+    "幻雪星空稱號書": {
+      "type": "item",
+      "name": "&7<<&9✿&f幻雪&b星空&fﾟ.*･｡ﾟ&7>> &e稱號書",
+      "imageId": "book",
+      "lore": "&a獲得方法 &7‒ &62019聖誕跨年抽抽樂",
+      "enchanted": false
+    },
+    "雪花飛舞稱號書": {
+      "type": "item",
+      "name": "&7<<&fﾟ.･*｡ﾟ&b雪花&7飛舞&fﾟ.*･｡ﾟ&7>> &e稱號書",
+      "imageId": "book",
+      "lore": "&a獲得方法 &7‒ &62019聖誕跨年抽抽樂",
+      "enchanted": false
+    },
+    "活動聖誕小白狐頭飾": {
+      "type": "item",
+      "name": "&6【&d活動&6】&b聖誕&f小白狐&e頭飾",
+      "imageId": "player_head_white_fox",
+      "lore": "&7火焰保護 II\\n&7衝撃 II\\n&7耐久 X\\n&b拿在手中就好像綿花糖一樣\\n&b軟綿綿的&7♥\\n\\n&7裝備於頭部時:\\n&c-3 攻撃速度\\n&9+3 盔甲強度",
+      "enchanted": false
+    },
+    "活動賀正破魔之弓": {
+      "type": "item",
+      "name": "&6【&d活動&6】&c賀正&d✿&f破魔之弓",
+      "imageId": "crossbow",
+      "lore": "&7分裂箭矢\\n&7貫穿 II\\n&7快速上弦 II\\n&7耐久 X\\n&e『由五道光芒所引導,\\n&e輝煌閃耀的未來之光。』\\n\\n&7在慣用手時:\\n&9+1 攻撃速度\\n&9+2 攻撃傷害\\n&c-5 盔甲強度",
+      "enchanted": true
+    },
+    "活動聖誕小白狐": {
+      "type": "item",
+      "name": "&6【&d活動&6】&b聖誕&f小白狐",
+      "imageId": "polar_bear_spawn_egg",
+      "lore": "&7在聖誕村中尋找到的白狐\\n&7尾巴好像很好摸喔~\\n&7軟軟的 ♥\\n&6-------\\n&e2019年聖誕節抽抽樂獲得",
+      "enchanted": false
+    },
+    "活動新春小花貓": {
+      "type": "item",
+      "name": "&6【&d活動&6】&c新春&f小花貓",
+      "imageId": "cat_spawn_egg",
+      "lore": "&7喵?\\n&7喵喵~\\n&7喵喵, 喵!\\n&6-------\\n&e2019年聖誕節抽抽樂獲得",
+      "enchanted": false
+    },
+    "活動除夜の鐘": {
+      "type": "item",
+      "name": "&6【&b活動&6】&b除夜&fの&e鐘&7(*´･з･)",
+      "imageId": "bell",
+      "lore": "&7在除夕夜時敲響它吧,\\n&7來獲得幸福 !!",
+      "enchanted": false
+    },
+    "由雪山上來的鮭魚": {
+      "type": "item",
+      "name": "&6【&f由雪山上來的&6】&b鮭魚",
+      "imageId": "salmon_bucket",
+      "lore": "&7在雪山中不小心遊了下來的魚",
+      "enchanted": false
+    },
+    "活動御節料理": {
+      "type": "item",
+      "name": "&6【&b活動&6】&f御節&6料理&c✿",
+      "imageId": "beetroot_soup",
+      "lore": "&7在正月時間,\\n&7大家也會準備一份料理,\\n&7來慶祝新年",
+      "enchanted": false
+    },
+    "scaffolding": {
+      "type": "item",
+      "name": "鷹架",
+      "imageId": "scaffolding",
+      "lore": "",
+      "enchanted": false
+    },
+    "brick": {
+      "type": "item",
+      "name": "紅磚頭",
+      "imageId": "brick",
+      "lore": "",
+      "enchanted": false
+    },
+    "tube_coral_fan": {
+      "type": "item",
+      "name": "扇狀管珊瑚",
+      "imageId": "tube_coral_fan",
+      "lore": "",
+      "enchanted": false
+    },
+    "tube_coral_block": {
+      "type": "block",
+      "name": "管珊瑚方塊",
+      "imageId": "tube_coral_block",
+      "lore": "",
+      "enchanted": false
+    },
+    "lantern": {
+      "type": "item",
+      "name": "燈籠",
+      "imageId": "lantern",
+      "lore": "",
+      "enchanted": false
+    },
+    "sea_pickle": {
+      "type": "item",
+      "name": "海鞘",
+      "imageId": "sea_pickle",
+      "lore": "",
+      "enchanted": false
+    },
+    "2019聖誕節抽抽樂鎖匙": {
+      "type": "item",
+      "imageId": "tripwire_hook",
+      "name": "&b2019 聖誕節抽抽樂 &a鎖匙",
+      "lore": "",
+      "enchanted": true
     }
   },
   "lotteryGroups": [
     {
       "title": "生存伺服器",
       "lotteries": [
+        "聖誕節寶箱",
         "三周年寶箱",
-        "中秋節寶箱",
-        "希亞寶物箱",
-        "復活節寶箱"
+        "希亞寶物箱"
       ]
     },
     {
       "title": "生存伺服器（已經下架）",
       "lotteries": [
-        "新年寶箱"
+        "新年寶箱",
+        "中秋節寶箱",
+        "復活節寶箱"
       ]
     }
   ],
@@ -861,6 +974,45 @@
           "qty": 32,
           "exchanges": [
             [{"money": 31360.00}]
+          ]
+        }
+      ]
+    },
+    "聖誕節寶箱": {
+      "title": "&6◊&e聖誕節寶箱&6◊",
+      "items": [
+        {"id": "幻雪星空稱號書", "qty": 1},
+        {"id": "雪花飛舞稱號書", "qty": 1},
+        {"id": "活動聖誕小白狐頭飾", "qty": 1},
+        {"id": "活動賀正破魔之弓", "qty": 1},
+        {"id": "活動聖誕小白狐", "qty": 1},
+        {"id": "活動新春小花貓", "qty": 1},
+        {"id": "活動除夜の鐘", "qty": 1},
+        {"id": "由雪山上來的鮭魚", "qty": 1},
+        {"id": "活動御節料理", "qty": 1},
+        {"id": "diamond", "qty": 3},
+        {"id": "scaffolding", "qty": 4},
+        {"id": "brick", "qty": 4},
+        {"id": "tube_coral", "qty": 4},
+        {"id": "tube_coral_fan", "qty": 4},
+        {"id": "tube_coral_block", "qty": 2},
+        {"id": "light_blue_glazed_terracotta", "qty": 16},
+        {"id": "lantern", "qty": 2},
+        {"id": "sea_pickle", "qty": 2}
+      ],
+      "keys": [
+        {
+          "itemId": "2019聖誕節抽抽樂鎖匙",
+          "qty": 1,
+          "exchanges": [
+            [{"money": 950.00}]
+          ]
+        },
+        {
+          "itemId": "2019聖誕節抽抽樂鎖匙",
+          "qty": 32,
+          "exchanges": [
+            [{"money": 29760.00}]
           ]
         }
       ]
