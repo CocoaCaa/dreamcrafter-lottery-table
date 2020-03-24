@@ -429,7 +429,7 @@
     },
     "&6【&b活動&6】&f耶穌的&b頭像": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-53dd7fea3bae3afa38725191a487d877705fd415adf09788d530afec4f50e130",
       "name": "&6【&b活動&6】&f耶穌的&b頭像",
       "lore": "&7把這個頭像拿在手中\\n&7好像有一種神聖的光在背後"
     },
@@ -624,55 +624,55 @@
     },
     "&6【&d三週年&6】&c小花頭顱": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-sleepyrose",
       "name": "&6【&d三週年&6】&c小花頭顱",
       "lore": ""
     },
     "&6【&d三週年&6】&7小側側頭顱": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-JustinJT",
       "name": "&6【&d三週年&6】&7小側側頭顱",
       "lore": ""
     },
     "&6【&d三週年&6】&dRS頭顱": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-rs20010531",
       "name": "&6【&d三週年&6】&dRS頭顱",
       "lore": ""
     },
     "&6【&d三週年&6】&b兔子頭顱": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-AsukaX",
       "name": "&6【&d三週年&6】&b兔子頭顱",
       "lore": ""
     },
     "&6【&d三週年&6】&a竹卡頭顱": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-JokerLiu",
       "name": "&6【&d三週年&6】&a竹卡頭顱",
       "lore": ""
     },
     "&6【&d三週年&6】&9比例頭顱": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-billyovo",
       "name": "&6【&d三週年&6】&9比例頭顱",
       "lore": ""
     },
     "&6【&d三週年&6】&a柚兔頭顱": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-YotoTwo",
       "name": "&6【&d三週年&6】&a柚兔頭顱",
       "lore": ""
     },
     "&6【&d三週年&6】&7好貓頭顱": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-LovelyGoodCat",
       "name": "&6【&d三週年&6】&7好貓頭顱",
       "lore": ""
     },
     "&6【&d三週年&6】&e小光頭顱": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-Sad_Ming",
       "name": "&6【&d三週年&6】&e小光頭顱",
       "lore": ""
     },
@@ -762,13 +762,13 @@
     },
     "&6【&b活動&6】&c巧克力草莓": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-faca020ce44f110c838415b0ceac66dd21ac9174eed6e9cbaaf0fb2d8009715d",
       "name": "&6【&b活動&6】&c巧克力草莓",
       "lore": "&9是大姐姐親手做的!<3"
     },
     "&6【&b活動&6】&d水果糖": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-bbd7bce0b6ff833ff0afb1a7bc28d7879d1537bc009e1d1e2110fd7f9965117",
       "name": "&6【&b活動&6】&d水果糖",
       "lore": "&9大姐姐選的一定好吃"
     },
@@ -788,19 +788,19 @@
     },
     "&6【&b活動&6】&6不給糖就搗蛋籃子": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-e50f712e877dfd910c97f3819a200a05d49ee6b83b592686e099b9ecd443f228",
       "name": "&6【&b活動&6】&6不給糖就搗蛋籃子",
       "lore": "&d希望大姐姐喜歡過萬聖節"
     },
     "&6【&b活動&6】&d芋頭奶凍卷": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-ab813edd14ddb81b068193af9cdf4291486f469cc7fb835f09ea4a663f499",
       "name": "&6【&b活動&6】&d芋頭奶凍卷",
       "lore": "&9超級好吃的感覺\\n&9但...説好的糖果呢"
     },
     "&6【&b活動&6】&e焦糖布丁": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-a09ab1ec63924e83010ba7fd744f01c790aa8b8caf06c707365b5fbbf7e6e99f",
       "name": "&6【&b活動&6】&e焦糖布丁",
       "lore": "&9奶奶弄的果然好吃\\n&9但都不是糖果了w"
     },
@@ -820,19 +820,19 @@
     },
     "&6【&b活動&6】&5不給糖就搗蛋籃子": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-17191aa9223d5a73353449b59eefb260aad315c79157d22e51042450ed2e7696",
       "name": "&6【&b活動&6】&5不給糖就搗蛋籃子",
       "lore": "&d聽説老太太都喜歡紫色"
     },
     "&6【&b活動&6】&d泡泡糖": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-f274a8a5ca66afeb2c7f162253a6c461d56b8511427a55857882a1f77aac8",
       "name": "&6【&b活動&6】&d泡泡糖",
       "lore": "&9聽說這是最便宜的糖果"
     },
     "&6【&b活動&6】&e漢堡包糖": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-a10753d9074f39e3716b1e19eaf260ec3b52423e29360c588550eb4e2da51a17",
       "name": "&6【&b活動&6】&e漢堡包糖",
       "lore": "&9滿滿的色素,吃一點好了"
     },
@@ -852,19 +852,19 @@
     },
     "&6【&b活動&6】&9不給糖就搗蛋籃子": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-76b35ba4ca96c0cca8c1fe8641b1d570e8c3f66298e0e5d7f33c13046e586370",
       "name": "&6【&b活動&6】&9不給糖就搗蛋籃子",
       "lore": "&d被摔壞也沒那麽難過"
     },
     "&6【&b活動&6】&f棉花糖": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-547de8914ac2cb975f85587e33be967a81ee751b4532a9bf2ea9fb85f2d759be",
       "name": "&6【&b活動&6】&f棉花糖",
       "lore": "&9居然不是萬聖節造型的棉花糖"
     },
     "&6【&b活動&6】&e金莎巧克力": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-51ee333b3943432e8591a66268d61fab1c1f6069ca9ee26523d40e64f4a26b5d",
       "name": "&6【&b活動&6】&e金莎巧克力",
       "lore": "&9該不會是新年的時候吃剩的吧..."
     },
@@ -884,7 +884,7 @@
     },
     "&6【&b活動&6】&2不給糖就搗蛋籃子": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-87f504cdbf5b21121b8218528dce567505d4567d7e72cd43a463cd51c8013a6",
       "name": "&6【&b活動&6】&2不給糖就搗蛋籃子",
       "lore": "&d老王不是最喜歡綠色嗎AwA"
     },
@@ -1011,7 +1011,7 @@
     },
     "&6【&d活動&6】&b聖誕&f小白狐&7ღ&e頭飾": {
       "type": "item",
-      "imageId": "player_head",
+      "imageId": "player_head-b5345a5209b626d69999fdaf9b76735d604a1a189968e6b89b4ed5dbd0ff106b",
       "name": "&6【&d活動&6】&b聖誕&f小白狐&7ღ&e頭飾",
       "lore": "&7火焰保護 II\\n&7衝擊 II\\n&7耐久 X\\n&b拿在手中就好像綿花糖一樣\\n&b軟綿綿的&7♥\\n&7裝備於頭部時:\\n&c-3 攻擊速度\\n&9+3 盔甲強度"
     },
