@@ -4,7 +4,9 @@
       <div
         class="app__container app__container--flex"
       >
-        <div>DreamCrafter <span class="title__lottery">抽抽樂</span> 一覧</div>
+        <div>
+          <a href="https://www.letsdream.today/" target="_blank" rel="noopener">DreamCrafter</a> <span class="title__lottery">抽抽樂</span> 一覧
+        </div>
         <github-button
           href="https://github.com/minixz/dreamcrafter-lottery-table"
           data-show-count="true"
@@ -156,7 +158,7 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: #fe4641;
+    color: #ffad6a;
   }
 }
 </style>
