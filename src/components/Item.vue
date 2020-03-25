@@ -27,6 +27,8 @@
     >
       <MinecraftText :value="value.name" />
       <MinecraftText v-if="value.lore" style="margin-top: 10px;" :value="value.lore" />
+      <br>
+      <MinecraftText :value="`&d機率 &f${chance.toFixed(2)}&d%`" />
     </Tooltip>
   </div>
 </template>
@@ -48,6 +50,9 @@ export default class Item extends Vue {
 
   @Prop({ default: 1 })
   public qty!: number;
+
+  @Prop()
+  public chance!: number;
 
   @Ref()
   public cover!: HTMLDivElement;

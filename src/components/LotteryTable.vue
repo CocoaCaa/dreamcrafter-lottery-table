@@ -12,6 +12,7 @@
           :key="idx"
           :value="configItems[lotteryItem.id]"
           :qty="lotteryItem.qty"
+          :chance="lotteryItem.chance"
           class="lottery-table__block"
         />
       </div>
