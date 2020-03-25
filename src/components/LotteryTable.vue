@@ -56,6 +56,12 @@
                 :value="configItems[exchangeItem.id]"
                 :qty="exchangeItem.qty"
               />
+              <div
+                v-else
+                class="exchange-table__money"
+              >
+                -
+              </div>
               <span class="exchange-table__plus">+</span>
             </div>
           </li>
