@@ -27,6 +27,10 @@
     >
       <MinecraftText :value="value.name" />
       <MinecraftText v-if="value.lore" style="margin-top: 10px;" :value="value.lore" />
+      <div v-if="chance">
+        <br>
+        <MinecraftText :value="`&d機率 &f${chance.toFixed(2)}&d%`" />
+      </div>
     </Tooltip>
   </div>
 </template>
@@ -48,6 +52,9 @@ export default class Item extends Vue {
 
   @Prop({ default: 1 })
   public qty!: number;
+
+  @Prop()
+  public chance!: number;
 
   @Ref()
   public cover!: HTMLDivElement;
@@ -95,9 +102,10 @@ export default class Item extends Vue {
     bottom: 0;
     background-image: url('../assets/enchanted_item_glint.png');
     background-size: 100px;
-    background-color: #e240ff;
+    background-color: #6a0dff;
     background-blend-mode: darken;
     mix-blend-mode: lighten;
+    filter: brightness(1.6);
     animation: enchant-effect 5s linear infinite;
   }
 

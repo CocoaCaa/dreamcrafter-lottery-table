@@ -12,6 +12,7 @@
           :key="idx"
           :value="configItems[lotteryItem.id]"
           :qty="lotteryItem.qty"
+          :chance="lotteryItem.chance"
           class="lottery-table__block"
         />
       </div>
@@ -55,6 +56,12 @@
                 :value="configItems[exchangeItem.id]"
                 :qty="exchangeItem.qty"
               />
+              <div
+                v-else
+                class="exchange-table__money"
+              >
+                -
+              </div>
               <span class="exchange-table__plus">+</span>
             </div>
           </li>
