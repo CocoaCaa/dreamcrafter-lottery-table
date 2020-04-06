@@ -29,7 +29,7 @@
       <MinecraftText v-if="value.lore" style="margin-top: 10px;" :value="value.lore" />
       <div v-if="chance">
         <br>
-        <MinecraftText :value="`&d機率 &f${chance.toFixed(2)}&d%`" />
+        <MinecraftText :value="`&d機率 &f${chance.toFixed(4)}&d%`" />
       </div>
     </Tooltip>
   </div>
