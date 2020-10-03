@@ -126,10 +126,9 @@ body {
 .app__lottery-tables {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: 0 -10px;
 
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1140px) {
     justify-content: center;
   }
 }
