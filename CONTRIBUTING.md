@@ -2,7 +2,7 @@
 
 ## Config
 
-The items and lottery settings are store on [config.json](/public/config.json) and the format:
+The items and lottery settings are stored in [config.json](/public/config.json) in the below format:
 ```jsonc
 {
   "items": {
@@ -52,25 +52,25 @@ The items and lottery settings are store on [config.json](/public/config.json) a
 
 ### Add new Items
 
-1. Get the texture from minecraft JAR files resources
-2. Scale up the image to 32x32
-3. Put the image to `public/img/item` or `public/img/block`
+1. Get the texture from minecraft JAR file resources
+2. Scale the image up to 32x32
+3. Put the image in `public/img/item` or `public/img/block`
 
-   Block - The image will show as a block
-   Item - The image will show as a flat item
-4. On config.json, add a new row on `items` (See below config for details)
+   Block - The image will be displayed as a block
+   Item - The image will be displayed as a flat item
+4. In config.json, add a new row in `items` (See config below for details)
 
 ### Add new lottery
 
-1. Create a new row on config.json `lotteries` (See below config for details)
+1. Create a new row in config.json `lotteries` (See config below for details)
 2. `lottery_id` is the unique name of the lottery
 3. `title` is the lottery title
-4. Add items into `items` (Max 9x3 items)
-5. Add the keys for how to exchange it.
+4. Add items to `items` (Max 9x3 items)
+5. Add keys on how to exchange it.
 
 ## Developing
 
-Thsi project is using [Vue.js](https://vuejs.org/) to built the codebase
+This project is built in [Vue.js](https://vuejs.org/)
 
 ### Pre-requirement
 - Node.js >= 10
@@ -83,7 +83,7 @@ cd dreamcrafter-lottery-table
 yarn install
 ```
 
-### Develop runtime
+### Development runtime
 ```sh
 yarn serve
 ```
@@ -95,5 +95,5 @@ yarn build
 
 ## Open a Pull Request
 
-For any changes, please fork this repo first and create pull request
+For any changes, please fork this repo and create a pull request
 
