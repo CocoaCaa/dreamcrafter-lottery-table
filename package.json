@@ -9,7 +9,7 @@
   "resolutions": {
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.0",
     "minecraft-text-js": "^1.1.1",
     "normalize.css": "^8.0.1",
